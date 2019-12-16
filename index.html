@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Holiday Road</title>
+  <link rel="stylesheet" href="./styles/main.css">
 </head>
+
 <body>
-  
+  <header>
+    <img class="icon" src="" alt="">
+    <nav>
+      <div class="filters">
+        <div class="filter filters__parks"></div>
+        <div class="filter filters__biz"></div>
+        <div class="filter filters__eat"></div>
+        <button class="button show__itinerary">Show</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="content">
+      <article class="itinerary__preview"></article>
+      <article class="weather"></article>
+    </section>
+    <aside class="itinerary"></aside>
+  </main>
+  <script type="module" src="./scripts/main.js"></script>
 </body>
+
 </html>
