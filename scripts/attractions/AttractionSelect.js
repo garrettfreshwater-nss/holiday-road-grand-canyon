@@ -30,7 +30,7 @@ const render = attractionsCollection => {
 <select class="attractionDropdown" id="attractionSelect">
 <option value="0">Please select an attraction...</option>
 ${attractionsCollection.map(
-attraction => `<option id="attractionSelect">${attraction}</option>`
+attraction => `<option id="attractionSelect">${attraction.state} - ${attraction.name}</option>`
 )}
 </select>
 `;
