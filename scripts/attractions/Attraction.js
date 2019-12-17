@@ -1,6 +1,6 @@
 const attractionComponent = (attraction) => {
     return `
-    <section class="attraction__card">
+    
     <div class="attraction__content">
       <div class="attraction__name">${attraction.businessName}</div>
       <img src="" alt="">
@@ -17,7 +17,7 @@ const attractionComponent = (attraction) => {
       
       <button class="close__dialog">hide</button>
     </dialog>
-  </section>
+  
     `
 }
 
