@@ -1,5 +1,5 @@
 import settings from "../Settings.js";
-import ParkSelect from "./ParkSelect.js";
+// import ParkSelect from "./ParkSelect.js";
 
 let Park = []
 
@@ -37,19 +37,3 @@ export const getParks = (selectedState) => {
         )
 }
 
-
-const contentElement = document.querySelector(".filters__parks")
-
-const eventHub = document.querySelector(".container")
-eventHub.addEventListener("stateSelected", event => {
-    contentElement.innerHTML = ""
-
-    getParks(event.detail.state).then(ParkSelect)
-    //   .then(() => {
-    //     contentElement.innerHTML = `
-    //       ${parks.map(park => {
-    //               return ParksComponent(park)
-    //             }).join(" ")}
-    //         `
-    //   })
-    })

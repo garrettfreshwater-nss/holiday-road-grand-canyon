@@ -1,4 +1,5 @@
 const parkComponent = (park) => {
+  
     return `
     <section class="park__card">
     <div class="park__content">
