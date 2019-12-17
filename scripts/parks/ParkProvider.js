@@ -1,5 +1,5 @@
 import settings from "../Settings.js";
-import ParkSelect from "./ParkSelect.js";
+// import ParkSelect from "./ParkSelect.js";
 
 let Park = []
 
@@ -9,7 +9,7 @@ export const useParks = () => {
 
 export const getParks = (selectedState) => {
 
-    return fetch(`https://developer.nps.gov/api/v1/parks?stateCode=${selectedState}&limit=25&sort=states&api_key=${settings.npsKey}`)
+    return fetch(`https://developer.nps.gov/api/v1/parks?stateCode=${selectedState}&limit=25&fields=addresses&sort=states&api_key=${settings.npsKey}`)
 
         .then(response => response.json())
         .then(
@@ -37,19 +37,3 @@ export const getParks = (selectedState) => {
         )
 }
 
-
-const contentElement = document.querySelector(".filters__parks")
-
-const eventHub = document.querySelector(".container")
-eventHub.addEventListener("stateSelected", event => {
-    contentElement.innerHTML = ""
-
-    getParks(event.detail.state).then(ParkSelect)
-    //   .then(() => {
-    //     contentElement.innerHTML = `
-    //       ${parks.map(park => {
-    //               return ParksComponent(park)
-    //             }).join(" ")}
-    //         `
-    //   })
-    })
