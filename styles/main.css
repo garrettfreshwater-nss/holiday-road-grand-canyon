@@ -3,3 +3,7 @@
 @import 'itinerary.css';
 @import 'weather.css';
 @import 'itinerary__preview.css';
+
+.icon {
+    max-width: 120px;
+}
