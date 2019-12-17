@@ -24,7 +24,11 @@ const weatherListComponent = () => {
     const render = (taco) => {
         contentTarget.innerHTML =  `${
             taco.map(currentTaco => {
-            return weatherComponent(currentTaco) 
+            const [prefix, time] = currentTaco.dt_txt.split(" ")
+
+            if (time === "12:00:00"){
+                return weatherComponent(currentTaco) 
+            }
         }).join("")}`
 
 

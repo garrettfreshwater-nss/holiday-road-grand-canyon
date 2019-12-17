@@ -2,7 +2,6 @@ const attractionComponent = (attraction) => {
     return `
     <div class="attraction__content">
       <div class="attraction__name">${attraction.name}</div>
-      <img src="" alt="">
     <button class="button__details" id="attractionButton__${attraction.id}">Details</button>
   
     <dialog class="dialog__attraction" id="details__${attraction.id}">

@@ -2,7 +2,8 @@ const eateryComponent = (eatery) => {
     return `
     <div class="eatery__content">
       <div class="eatery__name">${eatery.businessName}</div>
-      <img src="" alt="">
+      <img class="icon fork_icon" src="/images/fork.svg" alt="">
+
       <button class="button__details" id="eateryButton__${eatery.id}">Details</button>
 
   
