@@ -6,14 +6,14 @@ export const useAttractions = () => {
 
 export const getAttractions = () => {
 
-    return fetch("https://developer.nps.gov/api/v1/parks")
+    return fetch("http://holidayroad.nss.team/bizarreries")
 
         .then(response => response.json())
         .then(
 
 
             parsedAttractions => {
-                attractions = parsedAttractions.slice()
+                attraction = parsedAttractions.slice()
             }
 
         
