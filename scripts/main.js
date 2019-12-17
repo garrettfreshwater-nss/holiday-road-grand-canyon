@@ -7,9 +7,11 @@ import { getEateries } from "./eateries/EateryProvider.js";
 import StateSelect from "./parks/ParkStateSelector.js";
 import ParkListComponent from "./parks/ParkList.js";
 import weatherListComponent from "./weather/WeatherList.js";
+import AttractionListComponent from "./attractions/AttractionList.js";
 
 StateSelect()
 getEateries().then(EaterySelect)
 getAttractions().then(AttractionSelect)
 ParkListComponent()
 weatherListComponent()
+AttractionListComponent()
