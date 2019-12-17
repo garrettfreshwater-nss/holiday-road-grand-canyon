@@ -8,16 +8,17 @@ export const useWeather = () => {
 }
 
 export const getWeather = (selectedZip) => {
-
+    console.log('ive got the weather');
+    
     return fetch(`http://api.openweathermap.org/data/2.5/forecast?APPID=${settings.weatherKey}&zip=${selectedZip}&units=imperial`)
-
+    
         .then(response => response.json())
         .then(
 
 
             parsedWeather => {
                 console.table(parsedWeather)
-                Weather = parsedWeather.slice()
+                Weather = parsedWeather.list.slice()
                 
             }
 

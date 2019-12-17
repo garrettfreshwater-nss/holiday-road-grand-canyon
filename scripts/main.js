@@ -8,6 +8,7 @@ import StateSelect from "./parks/ParkStateSelector.js";
 import ParkListComponent from "./parks/ParkList.js";
 import weatherListComponent from "./weather/WeatherList.js";
 import AttractionListComponent from "./attractions/AttractionList.js";
+import { getWeather } from "./weather/WeatherProvider.js";
 
 StateSelect()
 getEateries().then(EaterySelect)
