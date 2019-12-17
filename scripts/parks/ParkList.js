@@ -3,7 +3,7 @@ import { getParks, useParks } from "./ParkProvider.js"
 import parkComponent from "./Park.js"
 import  ParkSelect  from "./ParkSelect.js"
 const eventHub = document.querySelector(".container")
-const contentTarget = document.querySelector(".itinerary__preview")
+const contentTarget = document.querySelector(".park__card")
 const contentElement = document.querySelector(".filters__parks")
 
 
