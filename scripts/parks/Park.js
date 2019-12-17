@@ -4,8 +4,8 @@ const parkComponent = (park) => {
     <div class="park__content">
       <div class="park__name">${park.fullName}</div>
       <img src="" alt="">
-    </div>
-  
+    
+    <button class="button__details" id="parkButton__${park.id}">Details</button>
     <dialog class="dialog__Park" id="details__${park.id}">
       <div class="park__name">${park.fullName}</div>
       <div class="park__state">${park.states}</div>
@@ -14,6 +14,7 @@ const parkComponent = (park) => {
       
       <button class="close__dialog">Hide</button>
     </dialog>
+    </div>
     `
 }
 
