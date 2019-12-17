@@ -1,7 +1,6 @@
 const parkComponent = (park) => {
   
     return `
-   
     <div class="park__content">
       <div class="park__name">${park.fullName}</div>
       <img src="" alt="">
@@ -15,7 +14,6 @@ const parkComponent = (park) => {
       
       <button class="close__dialog">Hide</button>
     </dialog>
-  
     `
 }
 

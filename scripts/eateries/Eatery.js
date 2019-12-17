@@ -1,6 +1,5 @@
 const eateryComponent = (eatery) => {
     return `
-   
     <div class="eatery__content">
       <div class="eatery__name">${eatery.businessName}</div>
       <img src="" alt="">
@@ -17,7 +16,6 @@ const eateryComponent = (eatery) => {
       
       <button class="close__dialog">Hide</button>
     </dialog>
- 
     `
 }
 
