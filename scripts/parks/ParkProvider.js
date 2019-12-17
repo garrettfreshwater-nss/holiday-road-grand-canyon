@@ -9,7 +9,7 @@ export const useParks = () => {
 
 export const getParks = (selectedState) => {
 
-    return fetch(`https://developer.nps.gov/api/v1/parks?stateCode=${selectedState}&limit=25&sort=states&api_key=${settings.npsKey}`)
+    return fetch(`https://developer.nps.gov/api/v1/parks?stateCode=${selectedState}&limit=25&fields=addresses&sort=states&api_key=${settings.npsKey}`)
 
         .then(response => response.json())
         .then(
