@@ -1,0 +1,21 @@
+.eatery__card {
+    box-shadow: 0px 0px 5px 0px #272c2f;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.fork_icon {
+    max-width: 50px;
+}
+
+.eatery__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}

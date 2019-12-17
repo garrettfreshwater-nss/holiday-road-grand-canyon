@@ -3,7 +3,12 @@
 @import 'itinerary.css';
 @import 'weather.css';
 @import 'itinerary__preview.css';
+@import 'eatery.css';
 
-.icon {
+.header__icon {
     max-width: 120px;
+}
+
+body {
+    font-family: HelveticaNeue-Light;
 }
