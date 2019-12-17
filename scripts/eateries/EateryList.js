@@ -1,5 +1,5 @@
 import eateryComponent from "./Eatery.js"
-
+import { useEateries } from "./EateryProvider.js"
 const eventHub = document.querySelector(".container")
 const contentTarget = document.querySelector(".eatery__card")
 
@@ -12,7 +12,7 @@ const EateryListComponent = () => {
         console.log(eatery)
          const matchingEatery = eateryCollection.filter(
              (currentEatery) => {
-                 if (currentEatery.fullName === eatery) {
+                 if (currentEatery.businessName === eatery) {
                    return currentEatery
             
                 }
