@@ -34,8 +34,19 @@ const ParkListComponent = () => {
 
              
          )
+         console.log('grabbing the zip')
+         const message = new CustomEvent ("extractZip", {
+             
+             detail: {
+                 selectedZip: matchingPark[0].addresses[0].postalCode
+                }
+            })
+            eventHub.dispatchEvent(message)
+            
+
          console.log(matchingPark)
          render(matchingPark)
+         console.log(matchingPark[0].addresses[0].postalCode)
 
 
     })
@@ -48,6 +59,7 @@ const ParkListComponent = () => {
             return parkComponent(currentTaco) }) 
             }  `
     }
+ 
 }
 
 export default ParkListComponent
