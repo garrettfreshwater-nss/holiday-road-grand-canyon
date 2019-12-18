@@ -7,6 +7,7 @@
 @import 'park.css';
 @import 'attraction.css';
 @import 'itinerary__modal.css';
+@import 'dialog.css';
 
 .header__icon {
     max-width: 120px;

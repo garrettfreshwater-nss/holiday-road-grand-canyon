@@ -29,7 +29,7 @@ weatherListComponent()
 AttractionListComponent()
 AttractionListComponent()
 EateryListComponent()
-    ItineraryListComponent()
+ItineraryListComponent()
 
 
 
