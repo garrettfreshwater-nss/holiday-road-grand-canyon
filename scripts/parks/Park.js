@@ -3,7 +3,7 @@ const parkComponent = (park) => {
     return `
     <div class="park__content">
       <div class="park__name">${park.fullName}</div>
-      <img src="" alt="">
+      <img class="icon mountain_icon" src="/images/mountains.svg" alt="">
     
     <button class="button__details" id="parkButton__${park.id}">Details</button>
     <dialog class="dialog__Park" id="details__${park.id}">
