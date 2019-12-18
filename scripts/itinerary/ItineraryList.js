@@ -1,7 +1,8 @@
-import { saveItinerary } from "../savedItinerary/SavedProvider.js"
 import { useParks } from "../parks/ParkProvider.js";
 import { useEateries } from "../eateries/EateryProvider.js";
 import { useAttractions } from "../attractions/AttractionProvider.js";
+import { saveItinerary } from "./ItineraryProvider.js";
+
 
 const eventHub = document.querySelector(".container")
 
