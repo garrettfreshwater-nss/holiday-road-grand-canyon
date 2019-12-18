@@ -33,3 +33,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+.hero {
+    background-image: url(/images/road_trip.jpg);
+    background-size: cover;
+}
