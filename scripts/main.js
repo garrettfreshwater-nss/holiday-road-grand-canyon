@@ -14,11 +14,13 @@ import initializeSaveItineraryEventListener, { ItineraryListComponent } from "./
 import { initializeResetButton } from "./dialog/Reset.js";
 import itineraryComponent from "./itinerary/Itinerary.js";
 import { getItinerary } from "./itinerary/ItineraryProvider.js";
+import { initializeDialogDetailEventListeners } from "./dialog/ItineraryDialog.js";
 
 
 
 initializeResetButton()
 initializeSaveItineraryEventListener()
+initializeDialogDetailEventListeners()
 
 
 StateSelect()
