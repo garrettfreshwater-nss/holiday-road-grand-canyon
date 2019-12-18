@@ -1,4 +1,69 @@
-.show__itinerary{
+button.show__itinerary{
+    font-family: HelveticaNeue-Light;
+    appearance: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    /* transition-duration: .5; */
     font-size:15px;
     cursor:pointer;
+}
+
+button.show__itinerary:hover{
+    font-family: HelveticaNeue-Light;
+    appearance: none;
+    background-color: #004769;
+    color: white;
+    box-shadow: 0px 0px 15px 0px #272c2f;
+    transition-duration: .5s;
+    font-size:17px;
+    cursor:pointer;
+
+}
+
+.button__details {
+    margin-top: 15px;
+    max-width: 150px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    color: black;
+    background: white;
+}
+
+button {
+    font-family: HelveticaNeue-Light;
+    appearance: none;
+    background-color: white;
+    
+    border-radius: .25rem;
+    border: .5px solid black;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    /* font-weight: 550; */
+    /* margin-right: .5rem; */
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    transition-duration: .5s;
+}
+
+.button{
+    width: 200px;
+    max-height: 70px;
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px 0px #272c2f;
+    transition-duration: .3s;
+  
 }

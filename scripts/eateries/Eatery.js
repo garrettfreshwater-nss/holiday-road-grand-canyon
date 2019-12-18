@@ -58,8 +58,9 @@ const eateryComponent = (eatery) => {
 
     return `
     <div class="eatery__content" id="eatery--${eatery.id}">
-      <div class="eatery__name">${eatery.businessName}</div>
-      <img class="icon fork_icon" src="/images/fork.svg" alt="">
+    <img class="icon fork_icon" src="/images/fork.svg" alt="">
+      
+    <div class="eatery__name">${eatery.businessName}</div>
 
       <button class="button__details" id="eateryButton__${eatery.id}">Details</button>
 
