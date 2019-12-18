@@ -29,8 +29,6 @@ AttractionListComponent()
 AttractionListComponent()
 EateryListComponent()
 
-// openNav()
-// closeNav()
 
 
 

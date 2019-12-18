@@ -2,8 +2,9 @@ const parkComponent = (park) => {
   
     return `
     <div class="park__content" id="park--${park.id}">
-      <div class="park__name">${park.fullName}</div>
-      <img class="icon mountain_icon" src="/images/mountains.svg" alt="">
+
+    <img class="icon mountain_icon" src="/images/mountains.svg" alt="">
+      <div class="park__name">${park.name}</div>
     
     <button class="button__details" id="parkButton__${park.id}">Details</button>
     <dialog class="dialog__Park" id="details__${park.id}">

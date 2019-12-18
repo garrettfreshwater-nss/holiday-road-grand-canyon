@@ -22,6 +22,11 @@ body {
     align-items: center;
 }
 
+.error {
+    color: red;
+    text-transform: lowercase;
+    padding-top: 13px;
+}
 .main__content {
     display: flex;
     flex-direction: column;

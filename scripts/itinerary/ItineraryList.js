@@ -59,7 +59,7 @@ const initializeSaveItineraryEventListener = () => {
       eventHub.dispatchEvent(newItinerary);
     } else 
     if(clickEvent.target.id === "saveItinerary"){
-      contentError.innerHTML = `Please Fill Out All Fields`;
+      contentError.innerHTML = `Please Fill Out All Fields...`;
     }
   });
 
