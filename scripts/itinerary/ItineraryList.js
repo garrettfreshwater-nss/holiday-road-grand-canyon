@@ -81,8 +81,11 @@ const initializeSaveItineraryEventListener = () => {
 
 export const ItineraryListComponent = () => {
   eventHub.addEventListener("click", clickEvent => {
-    if(clickEvent.target.id === "showButton")
+    if(clickEvent.target.classList.contains('show__itinerary'))
+ 
     {
+      console.log("getting itneraries");
+      
       getItinerary().then(
         ()=> {
           const itineraries = useItinerary()
