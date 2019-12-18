@@ -1,43 +1,31 @@
-let itinerary = []
+let itineraries = [];
 
-export  const useItinerary = () => {
-    return itinerary
-}
+export const useItinerary = () => {
+  return itineraries;
+};
 
-export const getItineraries = () => {
+export const getItinerary = () => {
+  return fetch("http://localhost:3000/itineraries")
+    .then(response => response.json())
+    .then(parsedItineraries => {
+      console.table(parsedItineraries);
+      itineraries = parsedItineraries.slice();
+    });
+};
 
+export const saveItinerary = itinerary => {
+  return fetch("http://localhost:3000/itineraries", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(itinerary)
+  }).then(getItinerary);
+};
 
-    return fetch('http://localhost:3000/db')
-
-        .then(response => response.json())
-        .then(
-            parsedItineraries => {
-                itinerary = parsedItineraries.slice()
-            }
-
-        )
-}
-
-
-export const saveItinerary = (note) => {
-
-    fetch('http://localhost:3000/db', {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-
-        body: JSON.stringify(note)
-
-    })
-
-    .then(getItineraries)
-
-}
-
-const deleteItinerary = itineraryId => {
-    return fetch(`http://localhost:3000/db/${itineraryId}`, {
-        method: "DELETE"
-    })
-        .then(getNotes)
+export const deleteItinerary = itineraryId => {
+  return fetch(`http://localhost:3000/itineraries/${itineraryId}`, {
+      method: "DELETE"
+  })
+      .then(getItinerary)
 }

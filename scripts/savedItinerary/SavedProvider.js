@@ -5,7 +5,7 @@ export const useItinerary = () => {
 };
 
 export const getItinerary = () => {
-  return fetch("http://localhost:8080/itineraries")
+  return fetch("http://localhost:3000/itineraries")
     .then(response => response.json())
     .then(parsedItineraries => {
       console.table(parsedItineraries);
@@ -14,7 +14,7 @@ export const getItinerary = () => {
 };
 
 export const saveItinerary = itinerary => {
-  return fetch("http://localhost:8080/itineraries", {
+  return fetch("http://localhost:3000/itineraries", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -24,7 +24,7 @@ export const saveItinerary = itinerary => {
 };
 
 export const deleteItinerary = itineraryId => {
-  return fetch(`http://localhost:8080/itineraries/${itineraryId}`, {
+  return fetch(`http://localhost:3000/itineraries/${itineraryId}`, {
       method: "DELETE"
   })
       .then(getItinerary)
