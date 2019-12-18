@@ -1,9 +1,13 @@
-import { saveItinerary } from "../savedItinerary/SavedProvider.js"
+import { saveItinerary } from "../itinerary/ItineraryProvider.js"
 import { useParks } from "../parks/ParkProvider.js";
 import { useEateries } from "../eateries/EateryProvider.js";
 import { useAttractions } from "../attractions/AttractionProvider.js";
 
 const eventHub = document.querySelector(".container")
+const contentElementPark = document.querySelector(".park__card")
+const contentElementEatery = document.querySelector(".attraction__card")
+const contentElementAttraction = document.querySelector(".eatery__card")
+const contentTarget = document.querySelector(".weather")
 
 const initializeSaveItineraryEventListener = () => {
 eventHub.addEventListener("click", clickEvent => {
@@ -58,7 +62,16 @@ eventHub.addEventListener("click", clickEvent => {
 
 
   eventHub.addEventListener("itinerarySaved", event => {
-    saveItinerary(event.detail)})
+    saveItinerary(event.detail)
+    contentTarget.innerHTML = ""
+    contentElementPark.innerHTML = ""
+    contentElementEatery.innerHTML=""
+    contentElementAttraction.innerHTML=""
+    document.querySelector("#itinerary__Name").value = ""
+    
+  }
+    
+    )
   }
 
   export default initializeSaveItineraryEventListener
