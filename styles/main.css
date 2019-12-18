@@ -4,6 +4,8 @@
 @import 'weather.css';
 @import 'itinerary__preview.css';
 @import 'eatery.css';
+@import 'park.css';
+@import 'attraction.css';
 
 .header__icon {
     max-width: 120px;
@@ -11,4 +13,10 @@
 
 body {
     font-family: HelveticaNeue-Light;
+}
+
+.all__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

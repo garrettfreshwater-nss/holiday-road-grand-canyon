@@ -1,0 +1,13 @@
+#itinerary__Name {
+    height: 51px;
+    border: none;
+    font-size: 15pt;
+    font-family: HelveticaNeue-Light;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-end;
+}
