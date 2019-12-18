@@ -1,4 +1,7 @@
 import { saveItinerary } from "../savedItinerary/SavedProvider.js"
+import { useParks } from "../parks/ParkProvider.js";
+import { useEateries } from "../eateries/EateryProvider.js";
+import { useAttractions } from "../attractions/AttractionProvider.js";
 
 const eventHub = document.querySelector(".container")
 
@@ -7,25 +10,28 @@ eventHub.addEventListener("click", clickEvent => {
   if(clickEvent.target.id === "saveItinerary") {
     console.log("save button clicked")
    
+    const allParks = useParks()
+    const [prefix, parkId] = document.querySelector(".park__content").id.split("--")
+    const theDisplayedPark = allParks.find(park => park.id = parkId)
+
+    const allEateries = useEateries()
+    const [taco, eateryId] = document.querySelector(".eatery__content").id.split("--")
+    const theDisplayedEatery = allEateries.find(eatery => eatery.id = eateryId)
+
+    const allAttractions = useAttractions()
+    const [burrito, attractionId] = document.querySelector(".attraction__content").id.split("--")
+    const theDisplayedAttraction = allAttractions.find(attraction => attraction.id = attractionId)
+
+
+    // itineraryDetails.park = theDisplayedPark
+    // itineraryDetails.eatery = theDisplayedEatery
+    // itineraryDetails.attraction = theDisplayedAttraction
+    
+    
     const itineraryName = document.querySelector("#itinerary__Name").value
-    const parkName = document.querySelector("#park__name").value
-    const parkState = document.querySelector("#park__state").value
-    const parkDescript = document.querySelector("#park__description").value
-    const parkUrl = document.querySelector("#park__url").value
-
-    const eateryName = document.querySelector("#eatery__name").value
-    const eateryCity = document.querySelector("#eatery__city").value
-    const eateryState = document.querySelector("#eatery__state").value
-    const eateryDescript = document.querySelector("#eatery__description").value
-    const eateryWifi = document.querySelector("#eatery__wifi").value
-    const eateryRestrooms = document.querySelector("#eatery__restrooms").value
-
-    const attractionName = document.querySelector("#attraction__name").value
-    const attractionCity = document.querySelector("#attraction__city").value
-    const attractionState = document.querySelector("#attraction__state").value
-    const attractionDescript = document.querySelector("#attraction__description").value
-    const attractionSouvenirs = document.querySelector("#attraction__souvenirs").value
-    const attractionRestrooms = document.querySelector("#attraction__restrooms").value
+    
+    
+    
 
     
     
@@ -35,37 +41,14 @@ eventHub.addEventListener("click", clickEvent => {
       detail: {
         itineraryName: itineraryName,
 
-        itineraryDetails: [
+        itineraryDetails: 
         {
-          park:
-          {
-            parkName: parkName,
-            parkState: parkState,
-            parkDescript: parkDescript,
-            parkUrl: parkUrl
-          },
-          eatery:
-          {
-            eateryName: eateryName,
-            eateryCity: eateryCity,
-            eateryState: eateryState,
-            eateryDescript: eateryDescript,
-            eateryWifi: eateryWifi,
-            eateryRestrooms: eateryRestrooms
-          },
-          attraction:
-          {
-            attractionName: attractionName,
-            attractionCity: attractionCity,
-            attractionState: attractionState,
-            attractionDescript: attractionDescript,
-            attractionSouvenirs: attractionSouvenirs,
-            attractionRestrooms: attractionRestrooms
-          }
-      
-
-      }
-    ]}})
+          park: theDisplayedPark,
+          eatery: theDisplayedEatery,
+          attraction: theDisplayedAttraction
+        }
+    }
+  })
         
   
     

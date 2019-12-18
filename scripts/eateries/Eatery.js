@@ -57,7 +57,7 @@ const eateryComponent = (eatery) => {
     
 
     return `
-    <div class="eatery__content">
+    <div class="eatery__content" id="eatery--${eatery.id}">
       <div class="eatery__name">${eatery.businessName}</div>
       <img class="icon fork_icon" src="/images/fork.svg" alt="">
 

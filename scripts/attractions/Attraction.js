@@ -42,7 +42,7 @@ const attractionComponent = (attraction) => {
   
   
   return `
-    <div class="attraction__content">
+    <div class="attraction__content" id="attraction--${attraction.id}">
       <div class="attraction__name">${attraction.name}</div>
     <button class="button__details" id="attractionButton__${attraction.id}">Details</button>
   
