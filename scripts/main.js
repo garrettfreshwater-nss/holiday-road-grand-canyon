@@ -10,12 +10,13 @@ import weatherListComponent from "./weather/WeatherList.js";
 import AttractionListComponent from "./attractions/AttractionList.js";
 import { getWeather } from "./weather/WeatherProvider.js";
 import EateryListComponent from "./eateries/EateryList.js";
+import initializeSaveItineraryEventListener from "./itinerary/ItineraryList.js";
 
 
 
 
 
-
+initializeSaveItineraryEventListener()
 
 StateSelect()
 getEateries().then(EaterySelect)
