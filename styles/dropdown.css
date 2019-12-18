@@ -1,5 +1,5 @@
 /* Reset Select */
-.crimeDropdown {
+/* .crimeDropdown {
     display: inline-block;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,10 +39,10 @@
   }
   .crimeDropdown option {
     font-weight: lighter;
-  }
+  } */
   
   /* Arrow */
-  .crimeDropdown::after {
+  /* .crimeDropdown::after {
     content: '\25BC';
     position: absolute;
     top: 0;
@@ -54,5 +54,5 @@
     -webkit-transition: .25s all ease;
     -o-transition: .25s all ease;
     transition: .25s all ease;
-  }
+  } */
   
