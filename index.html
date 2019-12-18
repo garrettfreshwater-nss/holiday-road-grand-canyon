@@ -19,7 +19,7 @@
           <div class="filter filters__parks"></div>
           <div class="filter filters__attract"></div>
           <div class="filter filters__eat"></div>
-          <button class="button show__itinerary">Show</button>
+          <button class="button show__itinerary"><span style="font-size:15px;cursor:pointer;" onclick="openNav()">SHOW TRIPS</span></button>
         </div>
       </nav>
     </header>
@@ -39,12 +39,32 @@
         </article>
         <article class="weather"></article>
       </section>
-      <aside class="itinerary"></aside>
     </section>
+
+
+    <aside class="itinerary">
+
+        <div id="mySideItinerary" class="side--itinerary">
+          <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</div>
+          <div>Trip 1</div>
+          <div>Trip 2</div>
+          <div>Trip 3</div>
+        </div>
+
+      </aside>
   </main>
-  <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+    <script>
+
+      const openNav = () => {
+      document.getElementById("mySideItinerary").style.width = "650px";
+      }
+      
+      const closeNav = () => {
+      document.getElementById("mySideItinerary").style.width = "0";
+      }
+
+    </script>
 </body>
-
-
 </html>
 
