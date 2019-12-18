@@ -13,7 +13,6 @@ import EateryListComponent from "./eateries/EateryList.js";
 import initializeSaveItineraryEventListener, { ItineraryListComponent } from "./itinerary/ItineraryList.js";
 import { initializeResetButton } from "./dialog/Reset.js";
 import itineraryComponent from "./itinerary/Itinerary.js";
-import { getItinerary } from "./itinerary/ItineraryProvider.js";
 import { initializeDialogDetailEventListeners } from "./dialog/ItineraryDialog.js";
 
 
@@ -21,7 +20,6 @@ import { initializeDialogDetailEventListeners } from "./dialog/ItineraryDialog.j
 initializeResetButton()
 initializeSaveItineraryEventListener()
 initializeDialogDetailEventListeners()
-
 
 StateSelect()
 getEateries().then(EaterySelect)
