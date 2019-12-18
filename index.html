@@ -19,7 +19,7 @@
           <div class="filter filters__parks"></div>
           <div class="filter filters__attract"></div>
           <div class="filter filters__eat"></div>
-          <button class="button show__itinerary">Show</button>
+          <button class="button show__itinerary"><span style="font-size:15px;cursor:pointer;" onclick="openNav()">SHOW TRIP&#9776;</span></button>
         </div>
       </nav>
     </header>
@@ -38,10 +38,28 @@
         </article>
         <article class="weather"></article>
       </section>
-      <aside class="itinerary"></aside>
+      <aside class="itinerary">
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Parks</a>
+          <a href="#">Attractions</a>
+          <a href="#">Eateries</a>
+        </div>
+
+      </aside>
     </section>
   </main>
   <script type="module" src="./scripts/main.js"></script>
+  <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "550px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
 </body>
 
 
