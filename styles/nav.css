@@ -7,12 +7,13 @@ header {
     margin-top: -20px;
     margin-left: -20px;
     margin-right: -20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .filters {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-end;
     /* flex-wrap: wrap; */
 }
 
@@ -21,9 +22,10 @@ header {
 select {
     position: relative;
       display: block;
-      margin-left: 5px;
+      /* margin-left: 5px; */
       width: 70%;
-      margin: 0 auto;
+      background-color: white;
+      /* margin: 0 auto; */
       font-family: HelveticaNeue-Light;
       font-size: 13px;
       color: #60666d;
@@ -38,14 +40,18 @@ select:hover {
 button {
     font-family: HelveticaNeue-Light;
     appearance: none;
-    background-color: #004769;
-    max-width: 70px;
+    background-color: white;
+    max-width: 100px;
     max-height: 70px;
     border-radius: .25rem;
-    color: #fff;
+    border: .5px solid black;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
     cursor: pointer;
     display: inline-block;
-    font-weight: 550;
+    font-size: 15px;
+    /* font-weight: 550; */
     margin-right: .5rem;
     text-align: center;
     text-decoration: none;
@@ -54,6 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #d7c780;
+    box-shadow: 0px 0px 5px 0px #272c2f;
+    color: #d7c780;
     transition-duration: .1s;
 }

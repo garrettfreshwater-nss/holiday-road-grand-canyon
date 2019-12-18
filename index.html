@@ -12,7 +12,7 @@
 <body>
   <main class="container">
     <header>
-      <img class="icon" src="images/voyage logo.png" alt="">
+      <img class="header__icon" src="images/voyage logo.png" alt="">
       <nav>
         <div class="filters">
           <div class="filter filters__states"></div>
@@ -25,15 +25,16 @@
     </header>
     <section class="all__content">
       <section class="main__content">
+        <form class="form" action="">
+            <label for="itinerary__Name"></label>
+            <input type="text" name="itinerary__Name" id="itinerary__Name" placeholder="Name your itinerary...">
+            <button id="saveName" type="button">Save Itinerary</button>
+        </form>
+
         <article class="itinerary__preview">
           <section class="park__card"></section>
           <section class="attraction__card"></section>
           <section class="eatery__card"></section>
-          <form class="form" action="">
-              <label for="itinerary__Name">Itinerary Name: </label>
-              <input type="text" name="itinerary__Name" id="itinerary__Name" placeholder="Name">
-              <button id="saveItinerary" type="button">Save Itinerary</button>
-          </form>
         </article>
         <article class="weather"></article>
       </section>
