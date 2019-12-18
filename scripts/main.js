@@ -11,11 +11,12 @@ import AttractionListComponent from "./attractions/AttractionList.js";
 import { getWeather } from "./weather/WeatherProvider.js";
 import EateryListComponent from "./eateries/EateryList.js";
 import initializeSaveItineraryEventListener from "./itinerary/ItineraryList.js";
+import { initializeResetButton } from "./dialog/Reset.js";
 
 
 
 
-
+initializeResetButton()
 initializeSaveItineraryEventListener()
 
 StateSelect()
