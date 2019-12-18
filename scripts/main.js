@@ -11,13 +11,10 @@ import AttractionListComponent from "./attractions/AttractionList.js";
 import { getWeather } from "./weather/WeatherProvider.js";
 import EateryListComponent from "./eateries/EateryList.js";
 import initializeSaveItineraryEventListener from "./itinerary/ItineraryList.js";
-<<<<<<< HEAD
-// import { openNav, closeNav } from "./itinerary/itineraryModal.js";
-=======
+
 import { initializeResetButton } from "./dialog/Reset.js";
 
 
->>>>>>> master
 
 
 initializeResetButton()
@@ -32,9 +29,5 @@ weatherListComponent()
 AttractionListComponent()
 AttractionListComponent()
 EateryListComponent()
-
-// openNav()
-// closeNav()
-
 
 
