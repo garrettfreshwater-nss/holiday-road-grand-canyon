@@ -6,7 +6,7 @@
 @import 'eatery.css';
 @import 'park.css';
 @import 'attraction.css';
-@import 'saved__itinerary.css';
+@import 'itinerary__modal.css';
 
 .header__icon {
     max-width: 120px;

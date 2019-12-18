@@ -11,12 +11,12 @@ import AttractionListComponent from "./attractions/AttractionList.js";
 import { getWeather } from "./weather/WeatherProvider.js";
 import EateryListComponent from "./eateries/EateryList.js";
 import initializeSaveItineraryEventListener from "./itinerary/ItineraryList.js";
-
-
+// import { openNav, closeNav } from "./itinerary/itineraryModal.js";
 
 
 
 initializeSaveItineraryEventListener()
+
 
 StateSelect()
 getEateries().then(EaterySelect)
@@ -26,3 +26,9 @@ weatherListComponent()
 AttractionListComponent()
 AttractionListComponent()
 EateryListComponent()
+
+// openNav()
+// closeNav()
+
+
+
