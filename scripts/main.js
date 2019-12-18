@@ -10,9 +10,10 @@ import weatherListComponent from "./weather/WeatherList.js";
 import AttractionListComponent from "./attractions/AttractionList.js";
 import { getWeather } from "./weather/WeatherProvider.js";
 import EateryListComponent from "./eateries/EateryList.js";
-import initializeSaveItineraryEventListener from "./itinerary/ItineraryList.js";
+import initializeSaveItineraryEventListener, { ItineraryListComponent } from "./itinerary/ItineraryList.js";
 import { initializeResetButton } from "./dialog/Reset.js";
-
+import itineraryComponent from "./itinerary/Itinerary.js";
+import { getItinerary } from "./itinerary/ItineraryProvider.js";
 
 
 
@@ -28,6 +29,8 @@ weatherListComponent()
 AttractionListComponent()
 AttractionListComponent()
 EateryListComponent()
+    ItineraryListComponent()
+
 
 
 
