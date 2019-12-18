@@ -7,7 +7,7 @@ const parkComponent = (park) => {
       <div class="park__name">${park.name}</div>
     
     <button class="button__details" id="parkButton__${park.id}">Details</button>
-    <dialog class="dialog__Park" id="details__${park.id}">
+    <dialog class="dialog__park" id="details__${park.id}">
       <div class="park__name" id="park__name">${park.fullName}</div>
       <div class="park__state" id="park__state">${park.states}</div>
       <div class="park__description" id="park__description">${park.description}</div>
