@@ -4,13 +4,10 @@ const itineraryComponent = (itinerary) => {
         //  const useWifi = yesWifi
         if (`${itinerary.itineraryDetails.eatery.ameneties.wifi}` === "false") {
        
-          return "Bring your mobile hotspot becase there is no WiFi here."
-        // if WIFI NOT available then FALSE
-       
+          return "Bring your mobile hotspot becase there is no WiFi here."       
         } else {  
           
           return "Snap a pic and post it to your gram, this spot has WiFi"
-        // if WIFI available then TRUE
           }
         
         }
@@ -18,16 +15,13 @@ const itineraryComponent = (itinerary) => {
         
         
         const yesRestrooms = () => {
-          //  const useWifi = yesWifi
           if (`${itinerary.itineraryDetails.eatery.ameneties.restrooms}` === "false") {
          
             return "this place is a dive and doesn't have a restroom, stop and go to the bathroom before"
-          // if WIFI NOT available then FALSE
          
           } else {  
             
             return "Restrooms are availible here!"
-          // if WIFI available then TRUE
             }
           
         }
@@ -69,7 +63,7 @@ const itineraryComponent = (itinerary) => {
       <div class="itinerary__attrationName"> Don't forget to pull over and see the ${itinerary.itineraryDetails.attraction.name} in ${itinerary.itineraryDetails.eatery.buisinessName} in ${itinerary.itineraryDetails.attraction.city}, ${itinerary.itineraryDetails.attraction.state}</div>
       <div class="itinerary__attractionSouvenirs">${souvenirs}</div>
       
-      <button class="close__dialog">Hide</button>
+      <button class="close__itineraryDialog">Hide</button>
     </dialog>
     </div>
     `

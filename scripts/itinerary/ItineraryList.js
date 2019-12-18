@@ -15,20 +15,20 @@ const contentError = document.querySelector(".error");
 
 const initializeSaveItineraryEventListener = () => {
   eventHub.addEventListener("click", clickEvent => {
+    
     if (
       clickEvent.target.id === "saveItinerary" &&
       document.querySelector(".park__card").innerHTML != "" &&
       document.querySelector(".eatery__card").innerHTML != "" &&
       document.querySelector(".attraction__card").innerHTML != "" &&
-      document.querySelector("#itinerary__Name").innerHTML != ""
+      document.querySelector("#itinerary__Name").value != ""
     ) {
       console.log("save button clicked");
       const itineraryName = document.querySelector("#itinerary__Name").value;
 
       const allParks = useParks();
       const [prefix, parkId] = document
-        .querySelector(".park__content")
-        .id.split("--");
+        .querySelector(".park__content").id.split("--");
       const theDisplayedPark = allParks.find(park => (park.id = parkId));
 
       const allEateries = useEateries();
@@ -60,7 +60,8 @@ const initializeSaveItineraryEventListener = () => {
       });
 
       eventHub.dispatchEvent(newItinerary);
-    } else 
+    } 
+    else 
     if(clickEvent.target.id === "saveItinerary"){
       contentError.innerHTML = `Please Fill Out All Fields...`;
     }
