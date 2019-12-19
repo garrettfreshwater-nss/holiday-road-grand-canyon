@@ -61,9 +61,8 @@ const itineraryComponent = (itinerary) => {
           <div class="itinerary__attrationName"> Don't forget to pull over and see the ${itinerary.itineraryDetails.attraction.name} in ${itinerary.itineraryDetails.eatery.buisinessName} in ${itinerary.itineraryDetails.attraction.city}, ${itinerary.itineraryDetails.attraction.state}</div>
           <div class="itinerary__attractionSouvenirs">${souvenirs}</div>
           
-          <button class="close__itineraryDialog">Hide</button>
+          <button class="close__itineraryDialog">HIDE</button>
         </dialog>
-
 
         <button class="button__delete" id="itineraryDeleteButton__${itinerary.id}">DELETE</button>
     </div>

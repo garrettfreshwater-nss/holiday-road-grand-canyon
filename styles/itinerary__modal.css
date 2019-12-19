@@ -30,10 +30,10 @@ aside {
   text-align:center;
 }
 
-.side--itinerary div:hover {
+/* .side--itinerary div:hover {
   color: #d7c780;
   cursor: pointer;
-}
+} */
 
 .side--itinerary .closebtn {
   position: absolute;
@@ -57,7 +57,9 @@ aside {
 
 .itinerary__buttons {
   display: flex;
+  
 }
+
 
 .button__details {
   max-width: 80px;

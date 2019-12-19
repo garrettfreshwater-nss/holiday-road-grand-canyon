@@ -1,14 +1,118 @@
+
+button.close__dialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
+}
+
+dialog::backdrop {
+    background: #527d90;
+    opacity: 67.5%;
+ }
+
 .dialog__park {
-    max-width:45%;
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
 
 .dialog__attraction {
-    max-width:45%;
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px; 
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
 
 .dialog__eatery {
-    max-width:45%;
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
+
+
+/* SAVED ITINERARY DIALOG BOXES */
+
+
+.side--itinerary {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #527D90;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .side--itinerary div {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+    font-family: HelveticaNeue-Light;
+    font-size: 15px; 
+    border: none;
+  }
+
+.dialog__itinerary {
+    max-width:50%;
+    position: absolute;
+    right: 150px;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+}
+
+
+
+
+  .close__itineraryDialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
+}
+  
+
+/* .dialog__attraction {
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px; 
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+}
+
+.dialog__eatery {
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+} */
+
+
 
 
 
