@@ -1,12 +1,14 @@
 .weather {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;   
 }
 
 .weather__card {
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     padding: 14px;
     align-content: center;

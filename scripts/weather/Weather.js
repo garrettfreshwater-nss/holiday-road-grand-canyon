@@ -12,8 +12,6 @@ const weatherComponent = (weather) => {
 
     <div class="weather__content">
       <div class="weather__temp">temp ${weather.main.temp}° F</div>
-      <div class="weather__tempMax">high ${weather.main.temp_max}° F</div>
-      <div class="weather__tempMin">low ${weather.main.temp_min}° F</div>
       <div class="weather__condition">${weather.weather.map(
           taco => `
           ${taco.description}`
