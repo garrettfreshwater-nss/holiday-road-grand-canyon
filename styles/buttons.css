@@ -22,8 +22,10 @@ button.show__itinerary:hover{
     transition-duration: .5s;
     font-size:17px;
     cursor:pointer;
-
 }
+
+
+
 
 .button__details {
     margin-top: 15px;
@@ -36,6 +38,16 @@ button.show__itinerary:hover{
 }
 
 .button__events {
+    margin-top: 15px;
+    max-width: 150px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .03rem;
+    color: black;
+    background: white;
+}
+
+.button__delete {
     margin-top: 15px;
     max-width: 150px;
     font-weight: 500;
@@ -69,7 +81,6 @@ button {
 .button{
     width: 200px;
     max-height: 70px;
-
 }
 
 button:hover {

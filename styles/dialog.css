@@ -44,34 +44,12 @@ dialog::backdrop {
 /* SAVED ITINERARY DIALOG BOXES */
 
 
-.side--itinerary {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #527D90;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
   
-  .side--itinerary div {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-    text-align:center;
-    font-family: HelveticaNeue-Light;
-    font-size: 15px; 
-    border: none;
-  }
+
 
 .dialog__itinerary {
     max-width:50%;
+    color: black;
     position: absolute;
     right: 150px;
     font-family: HelveticaNeue-Light;
