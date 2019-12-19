@@ -1,24 +1,26 @@
-const parkComponent = (park) => {
+const eventComponent = (event) => {
   
   return `
-  <div class="park__content" id="park--${park.id}">
+  <div class="event__content" id="event--${event.id}">
 
-  <img class="icon mountain_icon" src="/images/mountains.svg" alt="">
   
-    <div class="park__name">${park.name}</div>
-  
-  <dialog class="dialog__park" id="details__${park.id}">
-    <div class="park__name" id="park__name">${park.fullName}</div>
-    <div class="park__state" id="park__state">${park.states}</div>
-    <div class="park__description" id="park__description">${park.description}</div>
-    <a class="park__url" id="park__url" href="${park.url}">${park.url}</a>
     
+  
+    <div class="event__title" id="event__title">${event.title}</div>
+    <div class="event__dateStart" id="event__dateStart">${event.datestart}</div>
+    <div class="event__dateend" id="event__dateend">${event.dateend}</div>
+
+    
+    ${event.times.map(time => 
+      `<div class="event__timeStart" id="event__timeStart">${time.timestart}</div>
+    <div class="event__timeend" id="event__timeend">${time.timeend}</div>`).join("")}
+    <div class="event__description" id="event__description">${event.description}</div>
+    <div class="event__feeinfo" id="event__feeinfo">${event.feeinfo}</div>
     <button class="close__dialog">Hide</button>
-  </dialog>
   </div>
   `
 }
 
 
 
-export default parkComponent
+export default eventComponent

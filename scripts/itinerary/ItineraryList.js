@@ -36,7 +36,7 @@ const initializeSaveItineraryEventListener = () => {
         .querySelector(".eatery__content")
         .id.split("--");
       const theDisplayedEatery = allEateries.find(
-        eatery => (eatery.id = eateryId)
+        eatery => (eatery.id == eateryId)
       );
 
       const allAttractions = useAttractions();
@@ -44,7 +44,7 @@ const initializeSaveItineraryEventListener = () => {
         .querySelector(".attraction__content")
         .id.split("--");
       const theDisplayedAttraction = allAttractions.find(
-        attraction => (attraction.id = attractionId)
+        attraction => (attraction.id == attractionId)
       );
 
       const newItinerary = new CustomEvent("itinerarySaved", {
