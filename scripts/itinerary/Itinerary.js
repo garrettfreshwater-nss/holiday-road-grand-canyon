@@ -7,7 +7,7 @@ const itineraryComponent = (itinerary) => {
           return "Bring your mobile hotspot becase there is no WiFi here."       
         } else {  
           
-          return "Snap a pic and post it to your gram, this spot has WiFi"
+          return "Snap a pic and post it to your gram, this spot has WiFi!"
           }
         
         }
@@ -17,11 +17,11 @@ const itineraryComponent = (itinerary) => {
         const yesRestrooms = () => {
           if (`${itinerary.itineraryDetails.eatery.ameneties.restrooms}` === "false") {
          
-            return "this place is a dive and doesn't have a restroom, stop and go to the bathroom before"
+            return "This place is a dive and doesn't have a restroom. Stop and go to the bathroom before."
          
           } else {  
             
-            return "Restrooms are availible here!"
+            return "Restrooms are available here!"
             }
           
         }
@@ -36,7 +36,7 @@ const itineraryComponent = (itinerary) => {
            
             } else {  
               
-              return "They sell merch! Strike up a brand deal with the owners. Buy a shirt and snap a pic, build that following."
+              return "They sell merch! Strike up a brand deal with the owners. Buy a shirt, snap a pic, build that following!"
             
               }
             

@@ -1,7 +1,7 @@
 import { useParks } from "../parks/ParkProvider.js";
 import { useEateries } from "../eateries/EateryProvider.js";
 import { useAttractions } from "../attractions/AttractionProvider.js";
-import { saveItinerary, useItinerary, getItinerary } from "./ItineraryProvider.js";
+import { saveItinerary, useItinerary, getItinerary, deleteItinerary } from "./ItineraryProvider.js";
 import itineraryComponent from "./Itinerary.js";
 import { getWeather } from "../weather/WeatherProvider.js";
 
@@ -77,7 +77,16 @@ const initializeSaveItineraryEventListener = () => {
 
     document.querySelector("#itinerary__Name").value = "";
   });
-};
+
+  eventHub.addEventListener("click", clickEvent => {
+    if (clickEvent.target.id.startsWith("itineraryDeleteButton__")) {
+        const [prefix, id] = clickEvent.target.id.split("__")
+       deleteItinerary(id).then( () => {
+         const updatedItineraries = useItinerary()
+         render(updatedItineraries)
+    })
+  }
+})};
 
 export const ItineraryListComponent = () => {
   eventHub.addEventListener("click", clickEvent => {
@@ -96,16 +105,16 @@ export const ItineraryListComponent = () => {
     } 
   })
 
-  const render = (itineraryCollection) => {
-    contentElement.innerHTML = `
-  ${itineraryCollection.map(
-    itinerary => {
-      return itineraryComponent(itinerary);
-    })
-    .join(" ")}
-  `;
-  };
-  
+};
+
+const render = (itineraryCollection) => {
+  contentElement.innerHTML = `
+${itineraryCollection.map(
+  itinerary => {
+    return itineraryComponent(itinerary);
+  })
+  .join(" ")}
+`;
 };
 
 export default initializeSaveItineraryEventListener;
