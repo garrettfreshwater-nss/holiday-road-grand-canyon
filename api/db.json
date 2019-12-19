@@ -263,6 +263,72 @@
         }
       },
       "id": 16
+    },
+    {
+      "itineraryName": "Fun Times",
+      "itineraryDetails": {
+        "park": {
+          "states": "AZ,CA",
+          "directionsInfo": "Details listed are for the San Francisco administrative office of the Anza Trail. The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details.",
+          "directionsUrl": "http://www.nps.gov/juba/planyourvisit/placestogo.htm",
+          "url": "https://www.nps.gov/juba/index.htm",
+          "weatherInfo": "The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details.",
+          "name": "Juan Bautista de Anza",
+          "latLong": "",
+          "description": "\"¡Vayan Subiendo!\"(\"Everyone mount up!\") was the rousing call from Juan Bautista de Anza. In 1775-76, he led some 240 men, women, and children on an epic journey to establish the first non-Native settlement at San Francisco Bay. Today, the 1,200-mile Juan Bautista de Anza National Historic Trail connects history, culture, and outdoor recreation from Nogales, Arizona, to the San Francisco Bay Area.",
+          "designation": "National Historic Trail",
+          "parkCode": "juba",
+          "addresses": [
+            {
+              "postalCode": "94804",
+              "city": "Richmond",
+              "stateCode": "CA",
+              "line1": "440 Civic Center Plaza, Suite 300",
+              "type": "Mailing",
+              "line3": "",
+              "line2": ""
+            },
+            {
+              "postalCode": "94804",
+              "city": "Richmond",
+              "stateCode": "CA",
+              "line1": "440 Civic Center Plaza, Suite 300",
+              "type": "Physical",
+              "line3": "",
+              "line2": ""
+            }
+          ],
+          "id": "F339067B-A588-4BF3-9D90-1C1BA1249203",
+          "fullName": "Juan Bautista de Anza National Historic Trail"
+        },
+        "eatery": {
+          "businessName": "Club Paris",
+          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
+          "state": "AK",
+          "city": "Anchorage",
+          "id": "6",
+          "ameneties": {
+            "wheelchairAccessible": true,
+            "petFriendly": true,
+            "wifi": true,
+            "diaperFacility": true,
+            "playground": false,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": "5",
+          "name": "Big White Shirt",
+          "state": "AL",
+          "city": "Andalusia",
+          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 17
     }
   ]
 }
