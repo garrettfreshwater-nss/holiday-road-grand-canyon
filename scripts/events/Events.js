@@ -16,7 +16,7 @@ const eventComponent = (event) => {
     <div class="event__timeend" id="event__timeend">${time.timeend}</div>`).join("")}
     <div class="event__description" id="event__description">${event.description}</div>
     <div class="event__feeinfo" id="event__feeinfo">${event.feeinfo}</div>
-    <button class="close__dialog">Hide</button>
+    <button class="close__dialog">HIDE</button>
   </div>
   `
 }

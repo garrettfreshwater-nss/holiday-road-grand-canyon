@@ -1,14 +1,96 @@
+
+button.close__dialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
+}
+
+dialog::backdrop {
+    background: #527d90;
+    opacity: 67.5%;
+ }
+
 .dialog__park {
-    max-width:45%;
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
 
 .dialog__attraction {
-    max-width:45%;
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px; 
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
 
 .dialog__eatery {
-    max-width:45%;
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
+
+
+/* SAVED ITINERARY DIALOG BOXES */
+
+
+  
+
+
+.dialog__itinerary {
+    max-width:50%;
+    color: black;
+    position: absolute;
+    right: 150px;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+}
+
+
+
+
+  .close__itineraryDialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
+}
+  
+
+/* .dialog__attraction {
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px; 
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+}
+
+.dialog__eatery {
+    max-width:42.5%;
+    font-family: HelveticaNeue-Light;
+    font-size: 12.5px;
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+} */
+
+
 
 
 
