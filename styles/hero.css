@@ -64,3 +64,34 @@
     font-size: 11pt;
     line-height: 1.5;
 }
+
+.hero2__img {
+    max-height: 650px
+
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    /* margin-left: 80px;  */
+    margin-right: 200px;
+   margin-top: 90px;
+}
+
+.hero2__copy {
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: end;
+    right: 300px;
+    margin-top: 50px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+.hero2__tag {
+    font-family: HelveticaNeue-Medium;
+    font-weight: 540;
+    font-size: 47pt;
+    width: 486px;
+}
