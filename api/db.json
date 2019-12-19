@@ -133,72 +133,6 @@
       "id": 10
     },
     {
-      "itineraryName": "vneiaon",
-      "itineraryDetails": {
-        "park": {
-          "states": "CT",
-          "directionsInfo": "If you are coming to Weir Farm National Historic Site as part of a group that will require three or more vehicles, please call in advance to arrange a group visit.\n \n-Follow Route 7 the Branchville section of Ridgefield.\n-Turn onto Route 102 West at a traffic light.\n-Take 2nd left onto Old Branchville Road.\n-Turn left at first stop sign onto Nod Hill Road.\n-Follow Nod Hill Road one mile; continue straight after stop sign at Pelham Lane to 735 Nod Hill Road",
-          "directionsUrl": "http://www.nps.gov/wefa/planyourvisit/directions.htm",
-          "url": "https://www.nps.gov/wefa/index.htm",
-          "weatherInfo": "Weir Farm’s grounds are open all year and each season offers a unique experience. For a comfortable visit please note the following information.\nWinter: Temperatures average from 20 F to 40 F.  Storms and colder weather are possible. \nSpring: Temperatures average from 30 F to 70 F.  Rain is common. \nSummer: Temperatures average from 60 F to 85 F.  High humidity is common in July and August. \nFall: Temperatures average from 35 F to 75 F.  Foliage season runs from mid-September to mid-to-late October.",
-          "name": "Weir Farm",
-          "latLong": "lat:41.25886268, long:-73.45452542",
-          "description": "Visit the home and studio of America's most beloved Impressionist, J. Alden Weir, and walk in the footsteps of generations of world-class artists. Set amidst more than 60 acres of painterly woods, fields, and waterways, you’ll soon see why Weir described his home as the \"Great Good Place.\" Weir’s farm is a national legacy to American Impressionism, the creative spirit, and historic preservation.",
-          "designation": "National Historic Site",
-          "parkCode": "wefa",
-          "addresses": [
-            {
-              "postalCode": "06897",
-              "city": "Wilton",
-              "stateCode": "CT",
-              "line1": "735 Nod Hill Road",
-              "type": "Physical",
-              "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "06897",
-              "city": "Wilton",
-              "stateCode": "CT",
-              "line1": "735 Nod Hill Road",
-              "type": "Mailing",
-              "line3": "",
-              "line2": ""
-            }
-          ],
-          "id": "EA86FED8-2E03-467A-A8BD-4F032A647F35",
-          "fullName": "Weir Farm National Historic Site"
-        },
-        "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "7",
-          "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
-            "diaperFacility": true,
-            "playground": false,
-            "restrooms": true
-          }
-        },
-        "attraction": {
-          "id": "11",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 12
-    },
-    {
       "itineraryName": "Test",
       "itineraryDetails": {
         "park": {
@@ -265,7 +199,7 @@
       "id": 13
     },
     {
-      "itineraryName": "Test",
+      "itineraryName": "Delaware Journey",
       "itineraryDetails": {
         "park": {
           "states": "DC,DE,MD,NY,PA,VA,WV",
@@ -317,7 +251,7 @@
           }
         },
         "attraction": {
-          "id": "4",
+          "id": "9",
           "name": "Big White Shirt",
           "state": "AL",
           "city": "Andalusia",
@@ -328,73 +262,7 @@
           }
         }
       },
-      "id": 14
-    },
-    {
-      "itineraryName": "Test",
-      "itineraryDetails": {
-        "park": {
-          "states": "DC,DE,MD,NY,PA,VA,WV",
-          "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
-          "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
-          "url": "https://www.nps.gov/cbpo/index.htm",
-          "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
-          "name": "Chesapeake Bay",
-          "latLong": "lat:38.971601, long:-76.483355",
-          "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
-          "designation": "",
-          "parkCode": "cbpo",
-          "addresses": [
-            {
-              "postalCode": "21403",
-              "city": "Annapolis",
-              "stateCode": "MD",
-              "line1": "410 Severn Avenue",
-              "type": "Mailing",
-              "line3": "",
-              "line2": "Suite 314"
-            },
-            {
-              "postalCode": "21403",
-              "city": "Annapolis",
-              "stateCode": "MD",
-              "line1": "410 Severn Avenue",
-              "type": "Physical",
-              "line3": "",
-              "line2": "Suite 314"
-            }
-          ],
-          "id": "25554F74-A4AB-4C49-9071-341F00F0DAB8",
-          "fullName": "Chesapeake Bay"
-        },
-        "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "17",
-          "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
-            "diaperFacility": true,
-            "playground": false,
-            "restrooms": true
-          }
-        },
-        "attraction": {
-          "id": "3",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 15
+      "id": 16
     }
   ]
 }
