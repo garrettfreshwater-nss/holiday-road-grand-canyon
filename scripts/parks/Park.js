@@ -4,6 +4,7 @@ const parkComponent = (park) => {
     <div class="park__content" id="park--${park.id}">
 
     <img class="icon mountain_icon" src="/images/mountains.svg" alt="">
+    
       <div class="park__name">${park.name}</div>
     
     <button class="button__details" id="parkButton__${park.id}">Details</button>
