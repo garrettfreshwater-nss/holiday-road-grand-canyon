@@ -46,25 +46,24 @@ const itineraryComponent = (itinerary) => {
 
     return `
     <div class="itinerary__content" id="itinerary--${itinerary.id}">
-      <div class="itinerary__name">${itinerary.itineraryName}</div>
-      <div class="itinerary__header">your trip to beautiful ${itinerary.itineraryDetails.park.name}</div>
+      <div class="itinerary__name">${itinerary.itineraryName}<br/></div>
+      <div class="itinerary__header">Your trip to beautiful ${itinerary.itineraryDetails.park.name}</div>
       <img class="icon itinerary_icon" src="/images/road.svg" alt="">
     <div class="itinerary__buttons">
         <button class="button__details" id="itineraryDetailsButton__${itinerary.id}">Details</button>
         <dialog class="dialog__itinerary" id="details__${itinerary.id}">
           <div class="itinerary__headline">Pack your bags and get ready for your trip! </div>
           <div class="itinerary__parkName"> You're headed to ${itinerary.itineraryDetails.park.fullName} </div>
-          <div class="itinerary__eateryName"> and grabbing a bite to eat at ${itinerary.itineraryDetails.eatery.buisinessName} in ${itinerary.itineraryDetails.eatery.city}, ${itinerary.itineraryDetails.eatery.state}.</div>
+          <div class="itinerary__eateryName"> and grabbing a bite to eat at ${itinerary.itineraryDetails.eatery.businessName} in ${itinerary.itineraryDetails.eatery.city}, ${itinerary.itineraryDetails.eatery.state}.</div>
           <div class="itinerary__eateryWifi">${wifi}</div>
           <div class="itinerary__eateryRestrooms">${restrooms}</div>
           <hr/>
-          <div class="itinerary__attrationName"> Don't forget to pull over and see the ${itinerary.itineraryDetails.attraction.name} in ${itinerary.itineraryDetails.eatery.buisinessName} in ${itinerary.itineraryDetails.attraction.city}, ${itinerary.itineraryDetails.attraction.state}</div>
+          <div class="itinerary__attrationName"> Don't forget to pull over and see the ${itinerary.itineraryDetails.attraction.name} in ${itinerary.itineraryDetails.attraction.city}, ${itinerary.itineraryDetails.attraction.state}</div>
           <div class="itinerary__attractionSouvenirs">${souvenirs}</div>
           
-          <button class="close__itineraryDialog">Hide</button>
+          <button class="close__itineraryDialog">HIDE</button>
         </dialog>
-        <button class="button__events" id="eventsButton__${itinerary.id}">Events</button>
-
+        <button class="button__events" id="eventsButton__${itinerary.id}">EVENTS</button>
 
         <button class="button__delete" id="itineraryDeleteButton__${itinerary.id}">DELETE</button>
     </div>
