@@ -7,11 +7,19 @@
 }
 
 form {
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    width: 1270px;
+    padding-top: 30px;
+
 }
 
 .itinerary_icon {
     max-width: 50px;
+}
+#saveItinerary {
+    margin-right: 20px;
 }
