@@ -22,14 +22,19 @@ const weatherListComponent = () => {
     })
 
     const render = (taco) => {
-        contentTarget.innerHTML =  `${
+        contentTarget.innerHTML =  `
+        <section class="weather__box">
+        <p class="weather__title">Your 5 Day Forecast</p>
+        <div class="weather__cards">${
             taco.map(currentTaco => {
             const [prefix, time] = currentTaco.dt_txt.split(" ")
 
             if (time === "12:00:00"){
                 return weatherComponent(currentTaco) 
             }
-        }).join("")}`
+        }).join("")}
+        </div>
+        </section>`
 
 
     }

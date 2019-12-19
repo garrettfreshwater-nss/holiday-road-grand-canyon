@@ -1,9 +1,36 @@
 {
   "itineraries": [
     {
-      "itineraryName": "Test",
+      "itineraryName": "test",
       "itineraryDetails": {
         "park": {
+<<<<<<< HEAD
+          "states": "CT,MA",
+          "directionsInfo": "For details and directions to the sites within The Last Green Valley, visit, http://thelastgreenvalley.org/.",
+          "directionsUrl": "http://thelastgreenvalley.org/contact-us/contact-info/",
+          "url": "https://www.nps.gov/qush/index.htm",
+          "weatherInfo": "For details and information, please visit, http://thelastgreenvalley.org/.",
+          "name": "The Last Green Valley",
+          "latLong": "",
+          "description": "Discover the beauty of The Last Green Valley National Heritage Corridor!  Spanning 35 towns in northeastern Connecticut and south-central Massachusetts, The Last Green Valley is surprisingly rural and uniquely historic. With 1,100 square miles that are still 77% forests and farms, the pastoral landscape is interspersed with powerful rivers, mill villages, and vibrant town centers.",
+          "designation": "National Heritage Corridor",
+          "parkCode": "qush",
+          "addresses": [
+            {
+              "postalCode": "06239",
+              "city": "Danielson",
+              "stateCode": "CT",
+              "line1": "203 B Main Street, 2nd Floor",
+              "type": "Mailing",
+              "line3": "",
+              "line2": "P.O. Box 29"
+            },
+            {
+              "postalCode": "06239",
+              "city": "Danielson",
+              "stateCode": "CT",
+              "line1": "203 B Main Street, 2nd Floor",
+=======
           "states": "DC,DE,MD,NY,PA,VA,WV",
           "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
           "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
@@ -284,117 +311,43 @@
               "city": "Omaha",
               "stateCode": "NE",
               "line1": "601 Riverfront Dr.",
+>>>>>>> master
               "type": "Physical",
               "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "68102",
-              "city": "Omaha",
-              "stateCode": "NE",
-              "line1": "601 Riverfront Dr.",
-              "type": "Mailing",
-              "line3": "",
-              "line2": ""
+              "line2": "P.O. Box 29"
             }
           ],
-          "id": "F58C6D24-8D10-4573-9826-65D42B8B83AD",
-          "fullName": "Lewis & Clark National Historic Trail"
+          "id": "95A86C84-F0CB-4493-8B7D-2369D1ED9884",
+          "fullName": "The Last Green Valley National Heritage Corridor"
         },
         "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "15",
+          "businessName": "Occidental Grill & Seafood",
+          "description": "DC is the country's seat of power -- I know this because I've seen one and a half seasons of House of Cards -- and Occidental is where the power goes out for a rib-eye or scallops. And it's been this way since the beginning, with everyone from Amelia Earhart to multiple presidents dining here. While the original was demolished in the '70s, it deserves a spot on this list because it reopened in the '80s super close to its original location and with its rep intact, as both of the presidents named Bush have since partaken of its steakhouse fare.",
+          "state": "DC",
+          "city": "Washington",
+          "id": 10,
           "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
+            "wheelchairAccessible": false,
+            "petFriendly": false,
+            "wifi": false,
             "diaperFacility": true,
-            "playground": false,
+            "playground": true,
             "restrooms": true
           }
         },
         "attraction": {
-          "id": "15",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "id": 4,
+          "name": "Snake World",
+          "state": "AR",
+          "city": "Berryville",
+          "description": "The next time you’re in Arkansas, be sure to stop by Snake World! Owner Dale Ertel claims that the tourist attraction houses over 70 snakes, which is even more than the Little Rock Zoo. The reviews on Trip Advisor are all glowing, and warn visitors not to be dissuaded by Snake World’s sketchy exterior.",
           "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 18
-    },
-    {
-      "itineraryName": "Test",
-      "itineraryDetails": {
-        "park": {
-          "states": "LA",
-          "directionsInfo": "To reach Oakland Plantation, take I-49 to Exit 127, Flora/Cypress. Head east on LA Highway 120 toward Cypress. Cross over LA Highway 1 onto LA Highway 494. The parking lot and entrance pavilion for Oakland is 4.5 miles east of Highway 1 on the left.\n\nTo reach the grounds of Magnolia Plantation, take I-49 to Exit 119, Derry. Head east on LA Highway 119. Cross over LA Highway 1 and proceed for 1.1 miles. The parking area of Magnolia Plantation is on the right just before the road closure.",
-          "directionsUrl": "https://www.nps.gov/cari/planyourvisit/directions.htm",
-          "url": "https://www.nps.gov/cari/index.htm",
-          "weatherInfo": "Weather in central Louisiana can be unpredictable. Summers are hot and humid. Winter is relatively mild with measurable snowfall every 5-10 years. Average rainfall is approximately 55-60 inches per year. The area is also subject to severe thunderstorms, hail, damaging winds, and tornadoes. Visitors might want to bring hats, umbrellas, and drink plenty of water. Please check the local weather forecast before planning your visit to the park.",
-          "name": "Cane River Creole",
-          "latLong": "lat:31.65408447, long:-93.00131977",
-          "description": "The Cane River region is home to a unique culture; the Creoles. Generations of the same families of owners and workers, enslaved and tenant, lived on these lands for over 200 years. The park tells their stories and preserves the cultural landscape of Oakland and Magnolia Plantations, two of the most intact Creole cotton plantations in the United States.",
-          "designation": "National Historical Park",
-          "parkCode": "cari",
-          "addresses": [
-            {
-              "postalCode": "71457",
-              "city": "Natchitoches",
-              "stateCode": "LA",
-              "line1": "400 Rapides Dr. (Headquarters)",
-              "type": "Mailing",
-              "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "71457",
-              "city": "Natchitoches Parish",
-              "stateCode": "LA",
-              "line1": "4386 Highway 494, Natchez, LA 71456 (Oakland )",
-              "type": "Physical",
-              "line3": "",
-              "line2": "5549 Highway, 119, Cloutierville, LA  71416 (Magnolia)"
-            }
-          ],
-          "id": "ABEF2BF6-7B0B-4A3C-A0DA-7031A0D6EB82",
-          "fullName": "Cane River Creole National Historical Park"
-        },
-        "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "8",
-          "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
-            "diaperFacility": true,
-            "playground": false,
+            "souvenirs": true,
             "restrooms": true
           }
-        },
-        "attraction": {
-          "id": "6",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
         }
       },
-      "id": 19
+      "id": 22
     }
   ]
 }
