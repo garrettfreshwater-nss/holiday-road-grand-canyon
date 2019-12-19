@@ -29,12 +29,13 @@ const initializeSaveItineraryEventListener = () => {
       const allParks = useParks();
       const [prefix, parkId] = document
         .querySelector(".park__content").id.split("--");
-      const theDisplayedPark = allParks.find(park => (park.id = parkId));
+      const theDisplayedPark = allParks.find(park => (park.id == parkId));
 
       const allEateries = useEateries();
       const [taco, eateryId] = document
         .querySelector(".eatery__content")
         .id.split("--");
+        
       const theDisplayedEatery = allEateries.find(
         eatery => (eatery.id == eateryId)
       );

@@ -9,6 +9,7 @@ header {
     padding-top: 10px;
     padding-right: 80px;
     padding-left: 10px;
+    z-index: 1;
     position: fixed;
     top: 1px;
     width: 100%;

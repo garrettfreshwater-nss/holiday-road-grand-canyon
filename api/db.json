@@ -1,7 +1,7 @@
 {
   "itineraries": [
     {
-      "itineraryName": "Test",
+      "itineraryName": "test",
       "itineraryDetails": {
         "park": {
           "states": "DC,DE,MD,NY,PA,VA,WV",
@@ -286,181 +286,40 @@
               "line1": "601 Riverfront Dr.",
               "type": "Physical",
               "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "68102",
-              "city": "Omaha",
-              "stateCode": "NE",
-              "line1": "601 Riverfront Dr.",
-              "type": "Mailing",
-              "line3": "",
-              "line2": ""
+              "line2": "P.O. Box 29"
             }
           ],
-          "id": "F58C6D24-8D10-4573-9826-65D42B8B83AD",
-          "fullName": "Lewis & Clark National Historic Trail"
+          "id": "95A86C84-F0CB-4493-8B7D-2369D1ED9884",
+          "fullName": "The Last Green Valley National Heritage Corridor"
         },
         "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "15",
+          "businessName": "Occidental Grill & Seafood",
+          "description": "DC is the country's seat of power -- I know this because I've seen one and a half seasons of House of Cards -- and Occidental is where the power goes out for a rib-eye or scallops. And it's been this way since the beginning, with everyone from Amelia Earhart to multiple presidents dining here. While the original was demolished in the '70s, it deserves a spot on this list because it reopened in the '80s super close to its original location and with its rep intact, as both of the presidents named Bush have since partaken of its steakhouse fare.",
+          "state": "DC",
+          "city": "Washington",
+          "id": 10,
           "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
-            "diaperFacility": true,
-            "playground": false,
-            "restrooms": true
-          }
-        },
-        "attraction": {
-          "id": "15",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 18
-    },
-    {
-      "itineraryName": "Test",
-      "itineraryDetails": {
-        "park": {
-          "states": "LA",
-          "directionsInfo": "To reach Oakland Plantation, take I-49 to Exit 127, Flora/Cypress. Head east on LA Highway 120 toward Cypress. Cross over LA Highway 1 onto LA Highway 494. The parking lot and entrance pavilion for Oakland is 4.5 miles east of Highway 1 on the left.\n\nTo reach the grounds of Magnolia Plantation, take I-49 to Exit 119, Derry. Head east on LA Highway 119. Cross over LA Highway 1 and proceed for 1.1 miles. The parking area of Magnolia Plantation is on the right just before the road closure.",
-          "directionsUrl": "https://www.nps.gov/cari/planyourvisit/directions.htm",
-          "url": "https://www.nps.gov/cari/index.htm",
-          "weatherInfo": "Weather in central Louisiana can be unpredictable. Summers are hot and humid. Winter is relatively mild with measurable snowfall every 5-10 years. Average rainfall is approximately 55-60 inches per year. The area is also subject to severe thunderstorms, hail, damaging winds, and tornadoes. Visitors might want to bring hats, umbrellas, and drink plenty of water. Please check the local weather forecast before planning your visit to the park.",
-          "name": "Cane River Creole",
-          "latLong": "lat:31.65408447, long:-93.00131977",
-          "description": "The Cane River region is home to a unique culture; the Creoles. Generations of the same families of owners and workers, enslaved and tenant, lived on these lands for over 200 years. The park tells their stories and preserves the cultural landscape of Oakland and Magnolia Plantations, two of the most intact Creole cotton plantations in the United States.",
-          "designation": "National Historical Park",
-          "parkCode": "cari",
-          "addresses": [
-            {
-              "postalCode": "71457",
-              "city": "Natchitoches",
-              "stateCode": "LA",
-              "line1": "400 Rapides Dr. (Headquarters)",
-              "type": "Mailing",
-              "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "71457",
-              "city": "Natchitoches Parish",
-              "stateCode": "LA",
-              "line1": "4386 Highway 494, Natchez, LA 71456 (Oakland )",
-              "type": "Physical",
-              "line3": "",
-              "line2": "5549 Highway, 119, Cloutierville, LA  71416 (Magnolia)"
-            }
-          ],
-          "id": "ABEF2BF6-7B0B-4A3C-A0DA-7031A0D6EB82",
-          "fullName": "Cane River Creole National Historical Park"
-        },
-        "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "8",
-          "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
-            "diaperFacility": true,
-            "playground": false,
-            "restrooms": true
-          }
-        },
-        "attraction": {
-          "id": "6",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 19
-    },
-    {
-      "itineraryName": "Test attraction save",
-      "itineraryDetails": {
-        "park": {
-          "states": "CT",
-          "directionsInfo": "If you are coming to Weir Farm National Historic Site as part of a group that will require three or more vehicles, please call in advance to arrange a group visit.\n \n-Follow Route 7 the Branchville section of Ridgefield.\n-Turn onto Route 102 West at a traffic light.\n-Take 2nd left onto Old Branchville Road.\n-Turn left at first stop sign onto Nod Hill Road.\n-Follow Nod Hill Road one mile; continue straight after stop sign at Pelham Lane to 735 Nod Hill Road",
-          "directionsUrl": "http://www.nps.gov/wefa/planyourvisit/directions.htm",
-          "url": "https://www.nps.gov/wefa/index.htm",
-          "weatherInfo": "Weir Farm’s grounds are open all year and each season offers a unique experience. For a comfortable visit please note the following information.\nWinter: Temperatures average from 20 F to 40 F.  Storms and colder weather are possible. \nSpring: Temperatures average from 30 F to 70 F.  Rain is common. \nSummer: Temperatures average from 60 F to 85 F.  High humidity is common in July and August. \nFall: Temperatures average from 35 F to 75 F.  Foliage season runs from mid-September to mid-to-late October.",
-          "name": "Weir Farm",
-          "latLong": "lat:41.25886268, long:-73.45452542",
-          "description": "Visit the home and studio of America's most beloved Impressionist, J. Alden Weir, and walk in the footsteps of generations of world-class artists. Set amidst more than 60 acres of painterly woods, fields, and waterways, you’ll soon see why Weir described his home as the \"Great Good Place.\" Weir’s farm is a national legacy to American Impressionism, the creative spirit, and historic preservation.",
-          "designation": "National Historic Site",
-          "parkCode": "wefa",
-          "addresses": [
-            {
-              "postalCode": "06897",
-              "city": "Wilton",
-              "stateCode": "CT",
-              "line1": "735 Nod Hill Road",
-              "type": "Physical",
-              "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "06897",
-              "city": "Wilton",
-              "stateCode": "CT",
-              "line1": "735 Nod Hill Road",
-              "type": "Mailing",
-              "line3": "",
-              "line2": ""
-            }
-          ],
-          "id": "3D547E73-F0BF-4FEA-9CAC-9611D024E2FF",
-          "fullName": "Weir Farm National Historic Site"
-        },
-        "eatery": {
-          "businessName": "Union Oyster House",
-          "description": "It can’t really be anywhere else. You can make arguments for a lot of other places, actually -- The Student Prince in Springfield and maybe Jacob Wirth or Chart House -- but they don't hold up. Whenever you ask anyone about old places to eat in MA, the brain immediately goes to Union Oyster, before all the rest. It has to. It sits right down by Quincy Market, was originally Atwood & Bacon, and the original menu has a choice between Virginia, Narragansett, or Cape oysters. Plus clams from Ipswich. Its very helpful timeline points out that Daniel Webster used to hang there eating plate after plate of oysters while drinking brandy and water, and it also informs that toothpicks were first used in the US there, when a dude from Maine used to pay Harvard guys to eat there and request them. So yes, it's Union Oyster by a knockout. Please pay the waiter.",
-          "state": "MA",
-          "city": "Boston",
-          "id": 23,
-          "ameneties": {
-            "wheelchairAccessible": true,
+            "wheelchairAccessible": false,
             "petFriendly": false,
-            "wifi": true,
+            "wifi": false,
             "diaperFacility": true,
-            "playground": false,
+            "playground": true,
             "restrooms": true
           }
         },
         "attraction": {
-          "id": 22,
-          "name": "Turtle Boy",
-          "city": "Worcester",
-          "state": "MA",
-          "description": "This statue of a naked boy with a sea turtle is a big (and weird) tourist attraction for its possibly unintentionally suggestive nature. According to Roadside America, the sculptor died before he could complete the statue.",
+          "id": 4,
+          "name": "Snake World",
+          "state": "AR",
+          "city": "Berryville",
+          "description": "The next time you’re in Arkansas, be sure to stop by Snake World! Owner Dale Ertel claims that the tourist attraction houses over 70 snakes, which is even more than the Little Rock Zoo. The reviews on Trip Advisor are all glowing, and warn visitors not to be dissuaded by Snake World’s sketchy exterior.",
           "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
+            "souvenirs": true,
+            "restrooms": true
           }
         }
       },
-      "id": 20
+      "id": 22
     }
   ]
 }
