@@ -62,10 +62,14 @@ aside {
 
 
 .button__details {
-  max-width: 80px;
+  max-width: 75px;
 }
 .button__delete{
-  max-width: 80px;
+  max-width: 75px;
+}
+
+.button__events{
+  max-width: 75px;
 }
 
 

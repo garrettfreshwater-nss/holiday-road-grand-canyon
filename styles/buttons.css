@@ -30,7 +30,17 @@ button.show__itinerary:hover{
     max-width: 150px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .05rem;
+    letter-spacing: .03rem;
+    color: black;
+    background: white;
+}
+
+.button__events {
+    margin-top: 15px;
+    max-width: 150px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .03rem;
     color: black;
     background: white;
 }
