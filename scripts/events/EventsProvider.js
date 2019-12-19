@@ -6,9 +6,9 @@ export const useEvents = () => {
     return events.slice()
 }
 
-export const getEvents = (stateCode) => {
+export const getEvents = (parkCode) => {
 
-    return fetch(`https://developer.nps.gov/api/v1/events?parkCode=${stateCode}&limit=2&api_key=${settings.npsKey}`)
+    return fetch(`https://developer.nps.gov/api/v1/events?parkCode=${parkCode}&limit=2&api_key=${settings.npsKey}`)
 
         .then(response => response.json())
         .then(
@@ -16,4 +16,4 @@ export const getEvents = (stateCode) => {
 
             parsedEvents => {
                 console.table(parsedEvents)
-                events = parsedEvents.data.slice()
+                events = parsedEvents.data.slice()})}
