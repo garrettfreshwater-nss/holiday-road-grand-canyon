@@ -13,15 +13,7 @@
   <main class="container">
     <header>
       <img class="header__icon" src="images/voyage logo.png" alt="">
-      <nav>
-        <div class="filters">
-          <div class="filter filters__states"></div>
-          <div class="filter filters__parks"></div>
-          <div class="filter filters__attract"></div>
-          <div class="filter filters__eat"></div>
-          <button class="button show__itinerary" onclick="openNav()">MY TRIPS</button>
-        </div>
-      </nav>
+      <button class="button show__itinerary" onclick="openNav()">MY TRIPS</button>
     </header>
     <section class="hero"> 
       <img class="hero__img" src="./images/road_trip.jpg" alt="">
@@ -31,8 +23,8 @@
         <a href="#form" class="hero__button">
           <button class="hero__button">build your itenerary now</button>
         </a>
-
-   
+        
+        
       </div>
     </section>
     <section class="all__content">
@@ -42,13 +34,27 @@
           <div class="section__copy">we are a new approach to travel planning. we keep you in mind. using the dropdown menues above, explore hundreds of national parks, oddball attractions, and hip eateries from around the country. instantly save your new itenerary and access it whenever, wherever. </div>
           
         </section>
+
+      <section class="submit__itinerary">
         <form id="form" class="form" action="">
-            <label for="itinerary__Name"></label>
-            <input type="text" name="itinerary__Name" id="itinerary__Name" placeholder="Name your itinerary...">
-            <button class="button" id="saveItinerary" type="button">SAVE</button>
-            <button class="button" id="resetForm" type="button">RESET</button>
+          <label for="itinerary__Name"></label>
+          <input type="text" name="itinerary__Name" id="itinerary__Name" placeholder="Name your itinerary...">
+          <button class="button" id="resetForm" type="button">RESET</button>
         </form>
+        <nav>
+          <div class="filters">
+            <div class="filter filters__states"></div>
+            <div class="filter filters__parks"></div>
+            <div class="filter filters__attract"></div>
+            <div class="filter filters__eat"></div>
+          </div>
+          <button class="button" id="saveItinerary" type="button">SAVE</button>
+        </nav>
+
+      </section>
+
         <div class="error"></div>
+        
         <article class="itinerary__preview">
           <section class="park__card"></section>
           <section class="attraction__card"></section>
