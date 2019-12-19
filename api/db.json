@@ -4,33 +4,6 @@
       "itineraryName": "test",
       "itineraryDetails": {
         "park": {
-<<<<<<< HEAD
-          "states": "CT,MA",
-          "directionsInfo": "For details and directions to the sites within The Last Green Valley, visit, http://thelastgreenvalley.org/.",
-          "directionsUrl": "http://thelastgreenvalley.org/contact-us/contact-info/",
-          "url": "https://www.nps.gov/qush/index.htm",
-          "weatherInfo": "For details and information, please visit, http://thelastgreenvalley.org/.",
-          "name": "The Last Green Valley",
-          "latLong": "",
-          "description": "Discover the beauty of The Last Green Valley National Heritage Corridor!  Spanning 35 towns in northeastern Connecticut and south-central Massachusetts, The Last Green Valley is surprisingly rural and uniquely historic. With 1,100 square miles that are still 77% forests and farms, the pastoral landscape is interspersed with powerful rivers, mill villages, and vibrant town centers.",
-          "designation": "National Heritage Corridor",
-          "parkCode": "qush",
-          "addresses": [
-            {
-              "postalCode": "06239",
-              "city": "Danielson",
-              "stateCode": "CT",
-              "line1": "203 B Main Street, 2nd Floor",
-              "type": "Mailing",
-              "line3": "",
-              "line2": "P.O. Box 29"
-            },
-            {
-              "postalCode": "06239",
-              "city": "Danielson",
-              "stateCode": "CT",
-              "line1": "203 B Main Street, 2nd Floor",
-=======
           "states": "DC,DE,MD,NY,PA,VA,WV",
           "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
           "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
@@ -311,7 +284,6 @@
               "city": "Omaha",
               "stateCode": "NE",
               "line1": "601 Riverfront Dr.",
->>>>>>> master
               "type": "Physical",
               "line3": "",
               "line2": "P.O. Box 29"
