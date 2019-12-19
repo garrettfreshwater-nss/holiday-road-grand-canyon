@@ -15,6 +15,7 @@ import { initializeResetButton } from "./dialog/Reset.js";
 import itineraryComponent from "./itinerary/Itinerary.js";
 import { initializeDialogDetailEventListeners } from "./dialog/ItineraryDialog.js";
 import { initializeEventsButtonListener } from "./dialog/EventsDialog.js";
+import { EventListComponent } from "./events/EventsList.js";
 
 
 
@@ -32,6 +33,7 @@ AttractionListComponent()
 AttractionListComponent()
 EateryListComponent()
 ItineraryListComponent()
+EventListComponent()
 
 
 

@@ -7,13 +7,18 @@ eventHub.addEventListener("click", clickEvent => {
   if(clickEvent.target.id.startsWith("eventsButton__")) {
     console.log("events button clicked")
 
-    const [prefix, itineraryId] = document
-        .querySelector(".itinerary__content").id.split("--");
+    const [prefix, itineraryId] = clickEvent.target.id.split("__");
 
        getItinerary().then( () => {
         const allItineraries = useItinerary()
-        
-        const theChosenItinerary = allItineraries.find(itinerary => (itinerary.id = itineraryId));
+        // debugger
+        let theChosenItinerary=[]
+        // const theChosenItinerary = allItineraries.find(itinerary => (itinerary.id == itineraryId));
+           allItineraries.map(currentItinerary => 
+          {
+            if(currentItinerary.id == itineraryId){
+          theChosenItinerary= currentItinerary}
+        });
 
         const itineraryParkCode = theChosenItinerary.itineraryDetails.park.parkCode
         console.log(itineraryParkCode)
