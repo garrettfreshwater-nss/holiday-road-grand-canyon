@@ -4,6 +4,7 @@
       "itineraryName": "test",
       "itineraryDetails": {
         "park": {
+<<<<<<< HEAD
           "states": "CT,MA",
           "directionsInfo": "For details and directions to the sites within The Last Green Valley, visit, http://thelastgreenvalley.org/.",
           "directionsUrl": "http://thelastgreenvalley.org/contact-us/contact-info/",
@@ -29,6 +30,288 @@
               "city": "Danielson",
               "stateCode": "CT",
               "line1": "203 B Main Street, 2nd Floor",
+=======
+          "states": "DC,DE,MD,NY,PA,VA,WV",
+          "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
+          "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
+          "url": "https://www.nps.gov/cbpo/index.htm",
+          "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
+          "name": "Chesapeake Bay",
+          "latLong": "lat:38.971601, long:-76.483355",
+          "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
+          "designation": "",
+          "parkCode": "cbpo",
+          "addresses": [
+            {
+              "postalCode": "21403",
+              "city": "Annapolis",
+              "stateCode": "MD",
+              "line1": "410 Severn Avenue",
+              "type": "Mailing",
+              "line3": "",
+              "line2": "Suite 314"
+            },
+            {
+              "postalCode": "21403",
+              "city": "Annapolis",
+              "stateCode": "MD",
+              "line1": "410 Severn Avenue",
+              "type": "Physical",
+              "line3": "",
+              "line2": "Suite 314"
+            }
+          ],
+          "id": "25554F74-A4AB-4C49-9071-341F00F0DAB8",
+          "fullName": "Chesapeake Bay"
+        },
+        "eatery": {
+          "businessName": "Club Paris",
+          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
+          "state": "AK",
+          "city": "Anchorage",
+          "id": "6",
+          "ameneties": {
+            "wheelchairAccessible": true,
+            "petFriendly": true,
+            "wifi": true,
+            "diaperFacility": true,
+            "playground": false,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": "3",
+          "name": "Big White Shirt",
+          "state": "AL",
+          "city": "Andalusia",
+          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 13
+    },
+    {
+      "itineraryName": "Delaware Journey",
+      "itineraryDetails": {
+        "park": {
+          "states": "DC,DE,MD,NY,PA,VA,WV",
+          "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
+          "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
+          "url": "https://www.nps.gov/cbpo/index.htm",
+          "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
+          "name": "Chesapeake Bay",
+          "latLong": "lat:38.971601, long:-76.483355",
+          "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
+          "designation": "",
+          "parkCode": "cbpo",
+          "addresses": [
+            {
+              "postalCode": "21403",
+              "city": "Annapolis",
+              "stateCode": "MD",
+              "line1": "410 Severn Avenue",
+              "type": "Mailing",
+              "line3": "",
+              "line2": "Suite 314"
+            },
+            {
+              "postalCode": "21403",
+              "city": "Annapolis",
+              "stateCode": "MD",
+              "line1": "410 Severn Avenue",
+              "type": "Physical",
+              "line3": "",
+              "line2": "Suite 314"
+            }
+          ],
+          "id": "481CEBB8-1942-4FAE-8D89-9902E7B9EECA",
+          "fullName": "Chesapeake Bay"
+        },
+        "eatery": {
+          "businessName": "Club Paris",
+          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
+          "state": "AK",
+          "city": "Anchorage",
+          "id": "9",
+          "ameneties": {
+            "wheelchairAccessible": true,
+            "petFriendly": true,
+            "wifi": true,
+            "diaperFacility": true,
+            "playground": false,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": "9",
+          "name": "Big White Shirt",
+          "state": "AL",
+          "city": "Andalusia",
+          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 16
+    },
+    {
+      "itineraryName": "Fun Times",
+      "itineraryDetails": {
+        "park": {
+          "states": "AZ,CA",
+          "directionsInfo": "Details listed are for the San Francisco administrative office of the Anza Trail. The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details.",
+          "directionsUrl": "http://www.nps.gov/juba/planyourvisit/placestogo.htm",
+          "url": "https://www.nps.gov/juba/index.htm",
+          "weatherInfo": "The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details.",
+          "name": "Juan Bautista de Anza",
+          "latLong": "",
+          "description": "\"¡Vayan Subiendo!\"(\"Everyone mount up!\") was the rousing call from Juan Bautista de Anza. In 1775-76, he led some 240 men, women, and children on an epic journey to establish the first non-Native settlement at San Francisco Bay. Today, the 1,200-mile Juan Bautista de Anza National Historic Trail connects history, culture, and outdoor recreation from Nogales, Arizona, to the San Francisco Bay Area.",
+          "designation": "National Historic Trail",
+          "parkCode": "juba",
+          "addresses": [
+            {
+              "postalCode": "94804",
+              "city": "Richmond",
+              "stateCode": "CA",
+              "line1": "440 Civic Center Plaza, Suite 300",
+              "type": "Mailing",
+              "line3": "",
+              "line2": ""
+            },
+            {
+              "postalCode": "94804",
+              "city": "Richmond",
+              "stateCode": "CA",
+              "line1": "440 Civic Center Plaza, Suite 300",
+              "type": "Physical",
+              "line3": "",
+              "line2": ""
+            }
+          ],
+          "id": "F339067B-A588-4BF3-9D90-1C1BA1249203",
+          "fullName": "Juan Bautista de Anza National Historic Trail"
+        },
+        "eatery": {
+          "businessName": "Club Paris",
+          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
+          "state": "AK",
+          "city": "Anchorage",
+          "id": "6",
+          "ameneties": {
+            "wheelchairAccessible": true,
+            "petFriendly": true,
+            "wifi": true,
+            "diaperFacility": true,
+            "playground": false,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": "5",
+          "name": "Big White Shirt",
+          "state": "AL",
+          "city": "Andalusia",
+          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 17
+    },
+    {
+      "itineraryName": "Text#4",
+      "itineraryDetails": {
+        "park": {
+          "states": "DC,DE,MD,NY,PA,VA,WV",
+          "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
+          "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
+          "url": "https://www.nps.gov/cbpo/index.htm",
+          "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
+          "name": "Chesapeake Bay",
+          "latLong": "lat:38.971601, long:-76.483355",
+          "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
+          "designation": "",
+          "parkCode": "cbpo",
+          "addresses": [
+            {
+              "postalCode": "21403",
+              "city": "Annapolis",
+              "stateCode": "MD",
+              "line1": "410 Severn Avenue",
+              "type": "Mailing",
+              "line3": "",
+              "line2": "Suite 314"
+            },
+            {
+              "postalCode": "21403",
+              "city": "Annapolis",
+              "stateCode": "MD",
+              "line1": "410 Severn Avenue",
+              "type": "Physical",
+              "line3": "",
+              "line2": "Suite 314"
+            }
+          ],
+          "id": "7861C177-A600-4B37-B217-E9E64DC04F34",
+          "fullName": "Chesapeake Bay"
+        },
+        "eatery": {
+          "businessName": "Club Paris",
+          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
+          "state": "AK",
+          "city": "Anchorage",
+          "id": "2",
+          "ameneties": {
+            "wheelchairAccessible": true,
+            "petFriendly": true,
+            "wifi": true,
+            "diaperFacility": true,
+            "playground": false,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": "4",
+          "name": "Big White Shirt",
+          "state": "AL",
+          "city": "Andalusia",
+          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 17
+    },
+    {
+      "itineraryName": "Events Test",
+      "itineraryDetails": {
+        "park": {
+          "states": "IA,ID,IL,IN,KS,KY,MO,MT,NE,ND,OH,OR,PA,SD,WA,WV",
+          "directionsInfo": "Lewis & Clark National Historic Trail Headquarters Visitor Center is located inside the National Park Service Mid-West Regional Office. We are right on the Missouri River next to the Bob Kerrey Pedestrian Bridge in downtown Omaha, NE.",
+          "directionsUrl": "https://www.nps.gov/lecl/planyourvisit/lecl_headquarters.htm",
+          "url": "https://www.nps.gov/lecl/index.htm",
+          "weatherInfo": "In winter, watch for ice on trails and sidewalks.\n \nIn summer, make sure to drink plenty of water and wear sunscreen on hot days.\n\nKeep in mind the Trail covers 16 states, use www.weather.gov to look up the specific area you plan to visit.",
+          "name": "Lewis & Clark",
+          "latLong": "lat:41.2646141052246, long:-95.9245147705078",
+          "description": "The Lewis and Clark National Historic Trail is approximately 4,900 miles long, extending from Pittsburgh, Pennsylvania, to the mouth of the Columbia River, near present day Astoria, Oregon.  It follows the historic outbound and inbound routes of the Lewis and Clark Expedition as well as the preparatory section from Pittsburgh, Pennsylvania to Wood River, Illinois.",
+          "designation": "National Historic Trail",
+          "parkCode": "lecl",
+          "addresses": [
+            {
+              "postalCode": "68102",
+              "city": "Omaha",
+              "stateCode": "NE",
+              "line1": "601 Riverfront Dr.",
+>>>>>>> master
               "type": "Physical",
               "line3": "",
               "line2": "P.O. Box 29"
