@@ -1,7 +1,73 @@
 {
   "itineraries": [
     {
-      "itineraryName": "Really Has Events",
+      "itineraryName": "PA Trip",
+      "itineraryDetails": {
+        "park": {
+          "states": "PA",
+          "directionsInfo": "Independence National Historical Park is located in an urban area served by Interstates 95 and 676. The park is also easily accessible by public transportation, including SEPTA and PATCO mass transit routes. Whether you choose driving, the bus or the train, we recommend that you start your visit at the Independence Visitor Center at 6th and Market Streets.  See the park's website for specific directions.",
+          "directionsUrl": "http://www.nps.gov/inde/planyourvisit/directions.htm",
+          "url": "https://www.nps.gov/inde/index.htm",
+          "weatherInfo": "Summers are typically hot and muggy, fall and spring are generally mild, and winter is cold. Snowfall is highly variable, with some winters bringing only light snow and others bringing several major snowstorms, with the normal seasonal snowfall standing at 22.4 in (57 cm). Precipitation is generally spread throughout the year, with eight to twelve wet days per month.",
+          "name": "Independence",
+          "latLong": "lat:39.94746112, long:-75.14794157",
+          "description": "Goods, ideas, and people intermingled in early Philadelphia.  In this diverse city, a new republic was born.  The Declaration of Independence and U.S. Constitution were both debated and signed inside Independence Hall.  Nearby sits the Liberty Bell, an international symbol of liberty.",
+          "designation": "National Historical Park",
+          "parkCode": "inde",
+          "addresses": [
+            {
+              "postalCode": "19106",
+              "city": "Philadelphia",
+              "stateCode": "PA",
+              "line1": "143 S. 3rd Street",
+              "type": "Mailing",
+              "line3": "",
+              "line2": ""
+            },
+            {
+              "postalCode": "19106",
+              "city": "Philadelphia",
+              "stateCode": "PA",
+              "line1": "143 S. 3rd Street",
+              "type": "Physical",
+              "line3": "",
+              "line2": ""
+            }
+          ],
+          "id": "CF35CC35-12CE-473D-9E4C-703916105B78",
+          "fullName": "Independence National Historical Park"
+        },
+        "eatery": {
+          "businessName": "Joe's Stone Crab",
+          "description": "Since Florida is home to many, many elderly people, it's fairly surprising we were able to find a restaurant older than most of them. While Joe's has opened up outposts across the country, the original has remained popular in Miami Beach since way back when. The only thing more famous than the iconic stone crabs are the people who've dined there: according to a book written about the restaurant, they include the likes of 'Sinatra, Ali, and Jennifer Lopez.' It's true, one of the judges from the 11th season of American Idol has eaten here!",
+          "state": "FL",
+          "city": "Miami",
+          "id": 11,
+          "ameneties": {
+            "wheelchairAccessible": false,
+            "petFriendly": false,
+            "wifi": false,
+            "diaperFacility": true,
+            "playground": true,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": 8,
+          "name": "Owney the Stuffed Dog Postal Mascot",
+          "state": "DC",
+          "city": "Washington",
+          "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 16
+    },
+    {
+      "itineraryName": "Louisiana Trip ",
       "itineraryDetails": {
         "park": {
           "states": "LA",
@@ -38,33 +104,99 @@
           "fullName": "Cane River Creole National Historical Park"
         },
         "eatery": {
-          "businessName": "Marge's Pancake House",
-          "description": "Marge has been making pancakes from her family recipe for 50 years. People love to eat at Marge's Pancake House because everyone who works there dresses as a famous actor every day for work.",
-          "state": "IN",
-          "city": "Gary",
-          "id": 1,
+          "businessName": "Commander's Palace",
+          "description": "New Orleans is laden with 100+ year-old power players -- Tujague's, Antoine’s, and Galatoire’s all have to be mentioned -- whose food has managed to improve over the last century, who boast impeccably choreographed service, and who could vie for a spot as the most iconic restaurant in Louisiana. But do any of them do that while pulling off a two-story turquoise facade complete with a turret and matching striped awning? Nope, only Commander’s Palace manages that feat, and it has been doing it in the Garden District since 1880. If a spoonful of the rich, sherried turtle soup doesn’t convince you that the grandam's plates are just as symbolic of the state's food hub as the building itself, let current chef Tory McPhail's 2013 James Beard Award and chef alumni like Paul Prudhomme and Emeril Lagasse, both of who helped spread the regional cuisine to the country, serve as a reminder.",
+          "state": "LA",
+          "city": "New Orleans",
+          "id": 20,
           "ameneties": {
             "wheelchairAccessible": true,
             "petFriendly": false,
-            "wifi": true,
-            "diaperFacility": false,
-            "playground": false,
+            "wifi": false,
+            "diaperFacility": true,
+            "playground": true,
             "restrooms": true
           }
         },
         "attraction": {
-          "id": 8,
-          "name": "Owney the Stuffed Dog Postal Mascot",
-          "state": "DC",
-          "city": "Washington",
-          "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
+          "id": 19,
+          "name": "Grave of Marie Laveau, the Voodoo Queen",
+          "city": "New Orleans",
+          "state": "LA",
+          "description": "Visit Marie Laveau’s grave… if you dare. The notorious Louisiana Voodoo queen may have died in 1881, but it’s still widely believed that her spirit will help you with whatever you need should you leave the right combination of offerings or draw three X’s on her tomb. Unfortunately, due to tons of grave-defacing, the only way to visit her final resting place is by taking a tour with a licensed tour guide.",
           "ameneties": {
             "souvenirs": false,
             "restrooms": false
           }
         }
       },
-      "id": 15
+      "id": 17
+    },
+    {
+      "itineraryName": "Desert and Fun",
+      "itineraryDetails": {
+        "park": {
+          "states": "NM",
+          "directionsInfo": "Pecos National Historical Park is 25 miles east of Santa Fe, New Mexico off of Interstate 25. Visitors travelling north on I-25: take exit 299 on to HWY 50 to Pecos village and south two miles on State Road 63.\n\nThose travelling south on I-25: take exit 307 and proceed four miles north to the Park on State Road 63.",
+          "directionsUrl": "http://www.nps.gov/peco/planyourvisit/directions.htm",
+          "url": "https://www.nps.gov/peco/index.htm",
+          "weatherInfo": "Pecos National Historical Park is located at nearly 7,000 feet in altitude in the high desert region of Northern New Mexico. Please know your limits at this high desert altitude. We recommend that you wear clothing appropriate to the season, bring plenty of water, stop for a snack or lunch at one of the picnic tables, wear comfortable shoes, and put on plenty of sunscreen.\n\nSpecific daily Pecos weather information may be accessed at this link: http://www.nps.gov/peco/planyourvisit/weather.htm.",
+          "name": "Pecos",
+          "latLong": "lat:35.54192238, long:-105.6814684",
+          "description": "In the midst of piñon, juniper, and ponderosa pine woodlands of the Sangre de Cristo Mountains not far from Santa Fe, the remains of Indian pueblos stand as meaningful reminders of people who once prevailed. Pecos National Historical Park helps visitors explore the cultural exchange and geographic features that played such crucial roles in the rich history of the Pecos Valley.",
+          "designation": "National Historical Park",
+          "parkCode": "peco",
+          "addresses": [
+            {
+              "postalCode": "87552",
+              "city": "Pecos",
+              "stateCode": "NM",
+              "line1": "Pecos National Historical Park",
+              "type": "Mailing",
+              "line3": "",
+              "line2": "P.O. Box 418"
+            },
+            {
+              "postalCode": "87552",
+              "city": "Pecos",
+              "stateCode": "NM",
+              "line1": "Pecos National Historical Park",
+              "type": "Physical",
+              "line3": "",
+              "line2": "1 Peach Drive"
+            }
+          ],
+          "id": "8CBA3879-59AB-4EFE-8523-1DC6F77FB212",
+          "fullName": "Pecos National Historical Park"
+        },
+        "eatery": {
+          "businessName": "El Pinto",
+          "description": "Not only is this New Mexico's most iconic restaurant, it's also one of the best Mexican spots in the country. The red chile ribs are reason enough to schedule a visit soon, but it's also one of the largest restaurants you've ever been in, period. It's like how big your rich friend's house seemed when you were a kid: rooms open up into other rooms. After a few of the margaritas it gets even more difficult to navigate (trust us). Nevertheless, it has iconic status because, in a state of excellent Mexican food, this is a solid standby, and one that people have been returning to time after time.",
+          "state": "NM",
+          "city": "Albuquerque",
+          "id": 33,
+          "ameneties": {
+            "wheelchairAccessible": true,
+            "petFriendly": false,
+            "wifi": false,
+            "diaperFacility": true,
+            "playground": true,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": 32,
+          "name": "UFO Crashed Here",
+          "city": "Aztec",
+          "state": "NM",
+          "description": "Supposedly a UFO crash landed on this site in 1948. Now all that remains is a plaque with the gory details of the crash and some rocks gathered into the shape of an alien’s face.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 18
     }
   ]
 }

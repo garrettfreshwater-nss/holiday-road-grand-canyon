@@ -16,6 +16,8 @@ import itineraryComponent from "./itinerary/Itinerary.js";
 import { initializeDialogDetailEventListeners } from "./dialog/ItineraryDialog.js";
 import { initializeEventsButtonListener } from "./dialog/EventsDialog.js";
 import { EventListComponent } from "./events/EventsList.js";
+import { initializeDirectionsButtonListener } from "./dialog/DirectionsDialog.js"
+import { getDirections } from "./directions/DirectionsProvider.js";
 
 
 
@@ -23,6 +25,7 @@ initializeResetButton()
 initializeSaveItineraryEventListener()
 initializeDialogDetailEventListeners()
 initializeEventsButtonListener()
+initializeDirectionsButtonListener()
 
 StateSelect()
 getEateries().then(EaterySelect)
@@ -34,6 +37,7 @@ AttractionListComponent()
 EateryListComponent()
 ItineraryListComponent()
 EventListComponent()
+
 
 
 
