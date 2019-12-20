@@ -1,73 +1,73 @@
 {
   "itineraries": [
     {
-      "itineraryName": "test",
+      "itineraryName": "PA Trip",
       "itineraryDetails": {
         "park": {
-          "states": "DC,DE,MD,NY,PA,VA,WV",
-          "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
-          "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
-          "url": "https://www.nps.gov/cbpo/index.htm",
-          "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
-          "name": "Chesapeake Bay",
-          "latLong": "lat:38.971601, long:-76.483355",
-          "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
-          "designation": "",
-          "parkCode": "cbpo",
+          "states": "PA",
+          "directionsInfo": "Independence National Historical Park is located in an urban area served by Interstates 95 and 676. The park is also easily accessible by public transportation, including SEPTA and PATCO mass transit routes. Whether you choose driving, the bus or the train, we recommend that you start your visit at the Independence Visitor Center at 6th and Market Streets.  See the park's website for specific directions.",
+          "directionsUrl": "http://www.nps.gov/inde/planyourvisit/directions.htm",
+          "url": "https://www.nps.gov/inde/index.htm",
+          "weatherInfo": "Summers are typically hot and muggy, fall and spring are generally mild, and winter is cold. Snowfall is highly variable, with some winters bringing only light snow and others bringing several major snowstorms, with the normal seasonal snowfall standing at 22.4 in (57 cm). Precipitation is generally spread throughout the year, with eight to twelve wet days per month.",
+          "name": "Independence",
+          "latLong": "lat:39.94746112, long:-75.14794157",
+          "description": "Goods, ideas, and people intermingled in early Philadelphia.  In this diverse city, a new republic was born.  The Declaration of Independence and U.S. Constitution were both debated and signed inside Independence Hall.  Nearby sits the Liberty Bell, an international symbol of liberty.",
+          "designation": "National Historical Park",
+          "parkCode": "inde",
           "addresses": [
             {
-              "postalCode": "21403",
-              "city": "Annapolis",
-              "stateCode": "MD",
-              "line1": "410 Severn Avenue",
+              "postalCode": "19106",
+              "city": "Philadelphia",
+              "stateCode": "PA",
+              "line1": "143 S. 3rd Street",
               "type": "Mailing",
               "line3": "",
-              "line2": "Suite 314"
+              "line2": ""
             },
             {
-              "postalCode": "21403",
-              "city": "Annapolis",
-              "stateCode": "MD",
-              "line1": "410 Severn Avenue",
+              "postalCode": "19106",
+              "city": "Philadelphia",
+              "stateCode": "PA",
+              "line1": "143 S. 3rd Street",
               "type": "Physical",
               "line3": "",
-              "line2": "Suite 314"
+              "line2": ""
             }
           ],
-          "id": "25554F74-A4AB-4C49-9071-341F00F0DAB8",
-          "fullName": "Chesapeake Bay"
+          "id": "CF35CC35-12CE-473D-9E4C-703916105B78",
+          "fullName": "Independence National Historical Park"
         },
         "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "6",
+          "businessName": "Joe's Stone Crab",
+          "description": "Since Florida is home to many, many elderly people, it's fairly surprising we were able to find a restaurant older than most of them. While Joe's has opened up outposts across the country, the original has remained popular in Miami Beach since way back when. The only thing more famous than the iconic stone crabs are the people who've dined there: according to a book written about the restaurant, they include the likes of 'Sinatra, Ali, and Jennifer Lopez.' It's true, one of the judges from the 11th season of American Idol has eaten here!",
+          "state": "FL",
+          "city": "Miami",
+          "id": 11,
           "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
+            "wheelchairAccessible": false,
+            "petFriendly": false,
+            "wifi": false,
             "diaperFacility": true,
-            "playground": false,
+            "playground": true,
             "restrooms": true
           }
         },
         "attraction": {
-          "id": "3",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
+          "id": 8,
+          "name": "Owney the Stuffed Dog Postal Mascot",
+          "state": "DC",
+          "city": "Washington",
+          "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
           "ameneties": {
             "souvenirs": false,
             "restrooms": false
           }
         }
       },
-      "id": 13
+      "id": 16
     },
     {
-      "itineraryName": "Really Has Events",
+      "itineraryName": "Louisiana Trip ",
       "itineraryDetails": {
         "park": {
           "states": "LA",
@@ -104,33 +104,99 @@
           "fullName": "Cane River Creole National Historical Park"
         },
         "eatery": {
-          "businessName": "Marge's Pancake House",
-          "description": "Marge has been making pancakes from her family recipe for 50 years. People love to eat at Marge's Pancake House because everyone who works there dresses as a famous actor every day for work.",
-          "state": "IN",
-          "city": "Gary",
-          "id": 1,
+          "businessName": "Commander's Palace",
+          "description": "New Orleans is laden with 100+ year-old power players -- Tujague's, Antoine’s, and Galatoire’s all have to be mentioned -- whose food has managed to improve over the last century, who boast impeccably choreographed service, and who could vie for a spot as the most iconic restaurant in Louisiana. But do any of them do that while pulling off a two-story turquoise facade complete with a turret and matching striped awning? Nope, only Commander’s Palace manages that feat, and it has been doing it in the Garden District since 1880. If a spoonful of the rich, sherried turtle soup doesn’t convince you that the grandam's plates are just as symbolic of the state's food hub as the building itself, let current chef Tory McPhail's 2013 James Beard Award and chef alumni like Paul Prudhomme and Emeril Lagasse, both of who helped spread the regional cuisine to the country, serve as a reminder.",
+          "state": "LA",
+          "city": "New Orleans",
+          "id": 20,
           "ameneties": {
             "wheelchairAccessible": true,
             "petFriendly": false,
-            "wifi": true,
-            "diaperFacility": false,
-            "playground": false,
+            "wifi": false,
+            "diaperFacility": true,
+            "playground": true,
             "restrooms": true
           }
         },
         "attraction": {
-          "id": 8,
-          "name": "Owney the Stuffed Dog Postal Mascot",
-          "state": "DC",
-          "city": "Washington",
-          "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
+          "id": 19,
+          "name": "Grave of Marie Laveau, the Voodoo Queen",
+          "city": "New Orleans",
+          "state": "LA",
+          "description": "Visit Marie Laveau’s grave… if you dare. The notorious Louisiana Voodoo queen may have died in 1881, but it’s still widely believed that her spirit will help you with whatever you need should you leave the right combination of offerings or draw three X’s on her tomb. Unfortunately, due to tons of grave-defacing, the only way to visit her final resting place is by taking a tour with a licensed tour guide.",
           "ameneties": {
             "souvenirs": false,
             "restrooms": false
           }
         }
       },
-      "id": 15
+      "id": 17
+    },
+    {
+      "itineraryName": "Everglades - Fun with Gators",
+      "itineraryDetails": {
+        "park": {
+          "states": "FL",
+          "directionsInfo": "Directions to Ernest Coe Visitor Center\n40001 State Road 9336, Homestead, FL 33034\n\nVisitors coming from the Miami area and points north should take the Florida Turnpike (Route 821) south until it ends merging with U.S. 1 at Florida City. Turn right at the first traffic light onto Palm Drive (State Road 9336/SW 344th St.) and follow the signs to the park.\n\nVisitors driving north from the Florida Keys should turn left on Palm Drive in Florida City and follow the signs to the park.",
+          "directionsUrl": "http://www.nps.gov/ever/planyourvisit/directions.htm",
+          "url": "https://www.nps.gov/ever/index.htm",
+          "weatherInfo": "The climate in Florida is known to be mild and sunny.The average annual temperatures for South Florida and the Keys range from 74° to 77°F (23° to 25°C). There are two seasons at the Everglades National Park: the wet season and the dry season. The wet season runs from Mid-May to November and the dry season runs from December to mid-May.",
+          "name": "Everglades",
+          "latLong": "lat:25.37294225, long:-80.88200301",
+          "description": "Everglades National Park protects an unparalleled landscape that provides important habitat for numerous rare and endangered species like the manatee,  American crocodile, and the elusive Florida panther.\n\nAn international treasure as well -  a World Heritage Site, International Biosphere Reserve, a Wetland of International Importance, and a specially protected area under the Cartagena Treaty.",
+          "designation": "National Park",
+          "parkCode": "ever",
+          "addresses": [
+            {
+              "postalCode": "33034",
+              "city": "Homestead",
+              "stateCode": "FL",
+              "line1": "40001 State Road 9336",
+              "type": "Physical",
+              "line3": "",
+              "line2": ""
+            },
+            {
+              "postalCode": "33034",
+              "city": "Homestead",
+              "stateCode": "FL",
+              "line1": "40001 State Road 9336",
+              "type": "Mailing",
+              "line3": "",
+              "line2": ""
+            }
+          ],
+          "id": "5EA02193-276A-4037-B7DB-5765A56935FD",
+          "fullName": "Everglades National Park"
+        },
+        "eatery": {
+          "businessName": "Joe's Stone Crab",
+          "description": "Since Florida is home to many, many elderly people, it's fairly surprising we were able to find a restaurant older than most of them. While Joe's has opened up outposts across the country, the original has remained popular in Miami Beach since way back when. The only thing more famous than the iconic stone crabs are the people who've dined there: according to a book written about the restaurant, they include the likes of 'Sinatra, Ali, and Jennifer Lopez.' It's true, one of the judges from the 11th season of American Idol has eaten here!",
+          "state": "FL",
+          "city": "Miami",
+          "id": 11,
+          "ameneties": {
+            "wheelchairAccessible": false,
+            "petFriendly": false,
+            "wifi": false,
+            "diaperFacility": true,
+            "playground": true,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": 10,
+          "name": "World’s Largest ‘Gone With the Wind’ Collection",
+          "state": "FL",
+          "city": "Plant City",
+          "description": "If you’re a big fan of Gone With the Wind you’re going to want to stop by the world’s largest Gone With the Wind collection. It also houses the world’s largest gift shop dedicated to the movie.",
+          "ameneties": {
+            "souvenirs": true,
+            "restrooms": true
+          }
+        }
+      },
+      "id": 18
     }
   ]
 }
