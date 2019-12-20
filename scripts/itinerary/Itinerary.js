@@ -1,50 +1,50 @@
 const itineraryComponent = (itinerary) => {
-    const yesWifi = () => {
+  const yesWifi = () => {
 
-        //  const useWifi = yesWifi
-        if (`${itinerary.itineraryDetails.eatery.ameneties.wifi}` === "false") {
-       
-          return "Bring your mobile hotspot becase there is no WiFi here."       
-        } else {  
-          
-          return "Snap a pic and post it to your gram, this spot has WiFi!"
-          }
-        
-        }
-        const wifi = yesWifi()
-        
-        
-        const yesRestrooms = () => {
-          if (`${itinerary.itineraryDetails.eatery.ameneties.restrooms}` === "false") {
-         
-            return "This place is a dive and doesn't have a restroom. Stop and go to the bathroom before."
-         
-          } else {  
-            
-            return "Restrooms are available here!"
-            }
-          
-        }
-        const restrooms = yesRestrooms()
+    //  const useWifi = yesWifi
+    if (`${itinerary.itineraryDetails.eatery.ameneties.wifi}` === "false") {
 
-        const yesSouvenirs = () => {
-    
-            if (`${itinerary.itineraryDetails.attraction.ameneties.souvenirs}` === "false") {
-           
-              return "No souvenirs sold here...wah wah"
-           
-           
-            } else {  
-              
-              return "They sell merch! Strike up a brand deal with the owners. Buy a shirt, snap a pic, build that following!"
-            
-              }
-            
-            }
-            const souvenirs = yesSouvenirs()
-  
+      return "Bring your mobile hotspot becase there is no WiFi here."
+    } else {
 
-    return `
+      return "Snap a pic and post it to your gram, this spot has WiFi!"
+    }
+
+  }
+  const wifi = yesWifi()
+
+
+  const yesRestrooms = () => {
+    if (`${itinerary.itineraryDetails.eatery.ameneties.restrooms}` === "false") {
+
+      return "This place is a dive and doesn't have a restroom. Stop and go to the bathroom before."
+
+    } else {
+
+      return "Restrooms are available here!"
+    }
+
+  }
+  const restrooms = yesRestrooms()
+
+  const yesSouvenirs = () => {
+
+    if (`${itinerary.itineraryDetails.attraction.ameneties.souvenirs}` === "false") {
+
+      return "No souvenirs sold here...wah wah"
+
+
+    } else {
+
+      return "They sell merch! Strike up a brand deal with the owners. Buy a shirt, snap a pic, build that following!"
+
+    }
+
+  }
+  const souvenirs = yesSouvenirs()
+
+
+  return `
     <div class="itinerary__content" id="itinerary--${itinerary.id}">
       <div class="itinerary__name">${itinerary.itineraryName}<br/></div>
       <div class="itinerary__header">Your trip to ${itinerary.itineraryDetails.park.name}</div>
@@ -64,9 +64,13 @@ const itineraryComponent = (itinerary) => {
           <button class="close__itineraryDialog">HIDE</button>
         </dialog>
         <button class="button__events" id="eventsButton__${itinerary.id}">EVENTS</button>
-
+        <button class="button__events" id="directions__${itinerary.id}">DIRECTIONS</button>
         <dialog class="dialog__events"></dialog>
 
+        <dialog class="dialog__directions">
+        <div class="dialog__directionsInner"></div>
+        <button class="close__directionsDialog">HIDE</button>
+        </dialog>
 
 
         <button class="button__delete" id="itineraryDeleteButton__${itinerary.id}">DELETE</button>
