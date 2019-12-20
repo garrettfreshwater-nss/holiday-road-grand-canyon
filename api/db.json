@@ -131,6 +131,72 @@
         }
       },
       "id": 15
+    },
+    {
+      "itineraryName": "PA Trip",
+      "itineraryDetails": {
+        "park": {
+          "states": "PA",
+          "directionsInfo": "Independence National Historical Park is located in an urban area served by Interstates 95 and 676. The park is also easily accessible by public transportation, including SEPTA and PATCO mass transit routes. Whether you choose driving, the bus or the train, we recommend that you start your visit at the Independence Visitor Center at 6th and Market Streets.  See the park's website for specific directions.",
+          "directionsUrl": "http://www.nps.gov/inde/planyourvisit/directions.htm",
+          "url": "https://www.nps.gov/inde/index.htm",
+          "weatherInfo": "Summers are typically hot and muggy, fall and spring are generally mild, and winter is cold. Snowfall is highly variable, with some winters bringing only light snow and others bringing several major snowstorms, with the normal seasonal snowfall standing at 22.4 in (57 cm). Precipitation is generally spread throughout the year, with eight to twelve wet days per month.",
+          "name": "Independence",
+          "latLong": "lat:39.94746112, long:-75.14794157",
+          "description": "Goods, ideas, and people intermingled in early Philadelphia.  In this diverse city, a new republic was born.  The Declaration of Independence and U.S. Constitution were both debated and signed inside Independence Hall.  Nearby sits the Liberty Bell, an international symbol of liberty.",
+          "designation": "National Historical Park",
+          "parkCode": "inde",
+          "addresses": [
+            {
+              "postalCode": "19106",
+              "city": "Philadelphia",
+              "stateCode": "PA",
+              "line1": "143 S. 3rd Street",
+              "type": "Mailing",
+              "line3": "",
+              "line2": ""
+            },
+            {
+              "postalCode": "19106",
+              "city": "Philadelphia",
+              "stateCode": "PA",
+              "line1": "143 S. 3rd Street",
+              "type": "Physical",
+              "line3": "",
+              "line2": ""
+            }
+          ],
+          "id": "CF35CC35-12CE-473D-9E4C-703916105B78",
+          "fullName": "Independence National Historical Park"
+        },
+        "eatery": {
+          "businessName": "Joe's Stone Crab",
+          "description": "Since Florida is home to many, many elderly people, it's fairly surprising we were able to find a restaurant older than most of them. While Joe's has opened up outposts across the country, the original has remained popular in Miami Beach since way back when. The only thing more famous than the iconic stone crabs are the people who've dined there: according to a book written about the restaurant, they include the likes of 'Sinatra, Ali, and Jennifer Lopez.' It's true, one of the judges from the 11th season of American Idol has eaten here!",
+          "state": "FL",
+          "city": "Miami",
+          "id": 11,
+          "ameneties": {
+            "wheelchairAccessible": false,
+            "petFriendly": false,
+            "wifi": false,
+            "diaperFacility": true,
+            "playground": true,
+            "restrooms": true
+          }
+        },
+        "attraction": {
+          "id": 8,
+          "name": "Owney the Stuffed Dog Postal Mascot",
+          "state": "DC",
+          "city": "Washington",
+          "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
+          "ameneties": {
+            "souvenirs": false,
+            "restrooms": false
+          }
+        }
+      },
+      "id": 16
     }
   ]
 }
