@@ -59,6 +59,7 @@ const itineraryComponent = (itinerary) => {
           <div class="itinerary__eateryRestrooms">${restrooms}</div>
           <hr/>
           <div class="itinerary__attrationName"> Don't forget to pull over and see the ${itinerary.itineraryDetails.attraction.name} in ${itinerary.itineraryDetails.attraction.city}, ${itinerary.itineraryDetails.attraction.state}</div>
+          
           <div class="itinerary__attractionSouvenirs">${souvenirs}</div>
           
           <button class="close__itineraryDialog">HIDE</button>

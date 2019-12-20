@@ -1,99 +1,6 @@
 {
   "itineraries": [
     {
-      "itineraryName": "test",
-      "itineraryDetails": {
-        "park": {
-<<<<<<< HEAD
-          "states": "CT,MA",
-          "directionsInfo": "For details and directions to the sites within The Last Green Valley, visit, http://thelastgreenvalley.org/.",
-          "directionsUrl": "http://thelastgreenvalley.org/contact-us/contact-info/",
-          "url": "https://www.nps.gov/qush/index.htm",
-          "weatherInfo": "For details and information, please visit, http://thelastgreenvalley.org/.",
-          "name": "The Last Green Valley",
-          "latLong": "",
-          "description": "Discover the beauty of The Last Green Valley National Heritage Corridor!  Spanning 35 towns in northeastern Connecticut and south-central Massachusetts, The Last Green Valley is surprisingly rural and uniquely historic. With 1,100 square miles that are still 77% forests and farms, the pastoral landscape is interspersed with powerful rivers, mill villages, and vibrant town centers.",
-          "designation": "National Heritage Corridor",
-          "parkCode": "qush",
-          "addresses": [
-            {
-              "postalCode": "06239",
-              "city": "Danielson",
-              "stateCode": "CT",
-              "line1": "203 B Main Street, 2nd Floor",
-              "type": "Mailing",
-              "line3": "",
-              "line2": "P.O. Box 29"
-            },
-            {
-              "postalCode": "06239",
-              "city": "Danielson",
-              "stateCode": "CT",
-              "line1": "203 B Main Street, 2nd Floor",
-=======
-          "states": "DC,DE,MD,NY,PA,VA,WV",
-          "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
-          "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
-          "url": "https://www.nps.gov/cbpo/index.htm",
-          "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
-          "name": "Chesapeake Bay",
-          "latLong": "lat:38.971601, long:-76.483355",
-          "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
-          "designation": "",
-          "parkCode": "cbpo",
-          "addresses": [
-            {
-              "postalCode": "21403",
-              "city": "Annapolis",
-              "stateCode": "MD",
-              "line1": "410 Severn Avenue",
-              "type": "Mailing",
-              "line3": "",
-              "line2": "Suite 314"
-            },
-            {
-              "postalCode": "21403",
-              "city": "Annapolis",
-              "stateCode": "MD",
-              "line1": "410 Severn Avenue",
-              "type": "Physical",
-              "line3": "",
-              "line2": "Suite 314"
-            }
-          ],
-          "id": "25554F74-A4AB-4C49-9071-341F00F0DAB8",
-          "fullName": "Chesapeake Bay"
-        },
-        "eatery": {
-          "businessName": "Club Paris",
-          "description": "In a former funeral parlor built in Downtown Anchorage in the 1920s sits the oldest steakhouse in Alaska ('Home of the 4 inch thick Filet Mignon!'). At this point, it seems somewhat hilarious that the style was originally intended to 'look like a Parisian sidewalk cafe,' but no one is laughing at the very legit steaks (the signature is that 14oz filet, though we like the rib-eye), and, of course, Alaskan king crab legs.",
-          "state": "AK",
-          "city": "Anchorage",
-          "id": "6",
-          "ameneties": {
-            "wheelchairAccessible": true,
-            "petFriendly": true,
-            "wifi": true,
-            "diaperFacility": true,
-            "playground": false,
-            "restrooms": true
-          }
-        },
-        "attraction": {
-          "id": "3",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 13
-    },
-    {
       "itineraryName": "Delaware Journey",
       "itineraryDetails": {
         "park": {
@@ -311,7 +218,6 @@
               "city": "Omaha",
               "stateCode": "NE",
               "line1": "601 Riverfront Dr.",
->>>>>>> master
               "type": "Physical",
               "line3": "",
               "line2": "P.O. Box 29"

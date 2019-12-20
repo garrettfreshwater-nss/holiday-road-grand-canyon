@@ -11,9 +11,9 @@ dialog::backdrop {
  }
 
 .dialog__park {
-    max-width:42.5%;
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px;
+    font-size: 16.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -21,9 +21,9 @@ dialog::backdrop {
 }
 
 .dialog__attraction {
-    max-width:42.5%;
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px; 
+    font-size: 16.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -31,9 +31,9 @@ dialog::backdrop {
 }
 
 .dialog__eatery {
-    max-width:42.5%;
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px;
+    font-size: 16.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -90,7 +90,10 @@ dialog::backdrop {
     box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 } */
 
-
+.dialog__park{
+    
+    text-align: center;
+}
 
 
 
