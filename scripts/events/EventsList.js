@@ -19,19 +19,27 @@ export const EventListComponent = () => {
       
           const theDialog = document.querySelector(".dialog__events")
           theDialog.showModal();
-          eventHub.addEventListener("click", event => {
-            if (event.target.classList.contains("close__dialog")) {
-              const dialogElement = event.detail.buttonID.parentNode;
-              dialogElement.close();
-            }
-          });
+         
         }
       });
   });
 
-  const render = (contentElement, taco) => {
-    contentElement.innerHTML = `${taco.map(currentTaco => {
-      return eventComponent(currentTaco);
-    })}  `;
-  };
-};
+  eventHub.addEventListener("click", event => {
+    if (event.target.classList.contains("close__eventsDialog")) {
+      const dialogElement = event.target.parentNode;
+      dialogElement.close();
+    }
+  });
+  const render = (contentElement, events) => {
+    if(events.length != 0){
+    contentElement.innerHTML = `${events.map(currentEvent => {
+      return eventComponent(currentEvent);
+    }).join("")}`
+  }else{
+    contentElement.innerHTML = `
+    <div>No Events</div>
+    <button class="close__eventsDialog">HIDE</button>
+    `
+  }
+}
+}
