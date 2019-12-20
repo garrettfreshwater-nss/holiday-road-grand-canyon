@@ -57,7 +57,7 @@ const attractionComponent = (attraction) => {
       <div class="attraction__souvenirs">Souvenirs: ${souvenirs}</div>
       <div class="attraction__restrooms">Restrooms: ${restrooms}</div>
       
-      <button class="close__dialog">hide</button>
+      <button class="close__dialog">HIDE</button>
     </dialog>
     </div>
     `

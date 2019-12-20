@@ -23,7 +23,7 @@
 
 .eatery__name {
     margin-top: 13px;
-    max-width: 150px;
+    text-align: center;
 }
 
 .eatery__content {

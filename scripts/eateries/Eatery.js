@@ -75,7 +75,7 @@ const eateryComponent = (eatery) => {
  
       <div class="eatery__restrooms">Restrooms: ${restrooms}</div>
       
-      <button class="close__dialog">Hide</button>
+      <button class="close__dialog">HIDE</button>
     </dialog>
     </div>
     `

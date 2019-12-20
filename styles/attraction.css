@@ -18,6 +18,11 @@
     max-width: 150px;
 }
 
+div.attraction__name {
+    margin-top: 13px;
+    text-align:center;
+}
+
 
 
 .dino_icon{
@@ -30,3 +35,4 @@
     align-items: center;
     padding: 5px;
 }
+

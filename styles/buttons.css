@@ -84,7 +84,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 0px 2.5px 10px 1px #272c2f;
+    box-shadow: 0px 2px 10px 1px #272c2f;
     transition-duration: .3s;
   
 }
