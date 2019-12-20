@@ -1,40 +1,37 @@
-import { getEvents, useEvents } from "./EventsProvider.js"
-import eventComponent from "./Events.js"
-const eventHub = document.querySelector(".container")
-const contentElement = document.querySelector(".dialog__events")
-
+import { getEvents, useEvents } from "./EventsProvider.js";
+import eventComponent from "./Events.js";
+const eventHub = document.querySelector(".container");
 
 export const EventListComponent = () => {
+  eventHub.addEventListener("parkEventsSelected", event => {
+    getEvents(event.detail.parkCode)
+      .then(() => {
+        const contentElement = document.querySelector(".dialog__events");
 
-eventHub.addEventListener("parkEventsSelected", event => {
-  getEvents(event.detail.parkCode).then(() =>
- {
-    const allEvents = useEvents()
-    // debugger
-    render(allEvents)
+        const allEvents = useEvents();
+        // debugger
+        render(contentElement, allEvents);
+        return event;
+      })
+      .then(event => {
+      
+        if (event.detail.buttonID.startsWith("eventsButton__")) {
+      
+          const theDialog = document.querySelector(".dialog__events")
+          theDialog.showModal();
+          eventHub.addEventListener("click", event => {
+            if (event.target.classList.contains("close__dialog")) {
+              const dialogElement = event.detail.buttonID.parentNode;
+              dialogElement.close();
+            }
+          });
+        }
+      });
+  });
 
-
-      const dialogSiblingSelector = `#${event.target.id}+dialog`;
-      const theDialog = document.querySelector(dialogSiblingSelector);
-      theDialog.showModal();
-    if (event.target.classList.contains("close__dialog")) {
-      const dialogElement = event.target.parentNode;
-      dialogElement.close();
-    }
-
- } )
-})
-
-
-
-
-
-const render = (taco) => {
-  contentElement.innerHTML =
-
-      `${taco.map(currentTaco => {
-      return eventComponent(currentTaco) }) 
-      }  `
-}
-
-}
+  const render = (contentElement, taco) => {
+    contentElement.innerHTML = `${taco.map(currentTaco => {
+      return eventComponent(currentTaco);
+    })}  `;
+  };
+};

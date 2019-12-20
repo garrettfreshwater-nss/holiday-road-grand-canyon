@@ -23,7 +23,9 @@ eventHub.addEventListener("click", clickEvent => {
 
         const newParkCode = new CustomEvent ("parkEventsSelected", {
           detail: {
-            parkCode: itineraryParkCode
+            parkCode: itineraryParkCode,
+            buttonID: clickEvent.target.id
+
           }
         })
         eventHub.dispatchEvent(newParkCode);
