@@ -133,50 +133,50 @@
       "id": 17
     },
     {
-      "itineraryName": "Everglades - Fun with Gators",
+      "itineraryName": "Desert and Fun",
       "itineraryDetails": {
         "park": {
-          "states": "FL",
-          "directionsInfo": "Directions to Ernest Coe Visitor Center\n40001 State Road 9336, Homestead, FL 33034\n\nVisitors coming from the Miami area and points north should take the Florida Turnpike (Route 821) south until it ends merging with U.S. 1 at Florida City. Turn right at the first traffic light onto Palm Drive (State Road 9336/SW 344th St.) and follow the signs to the park.\n\nVisitors driving north from the Florida Keys should turn left on Palm Drive in Florida City and follow the signs to the park.",
-          "directionsUrl": "http://www.nps.gov/ever/planyourvisit/directions.htm",
-          "url": "https://www.nps.gov/ever/index.htm",
-          "weatherInfo": "The climate in Florida is known to be mild and sunny.The average annual temperatures for South Florida and the Keys range from 74° to 77°F (23° to 25°C). There are two seasons at the Everglades National Park: the wet season and the dry season. The wet season runs from Mid-May to November and the dry season runs from December to mid-May.",
-          "name": "Everglades",
-          "latLong": "lat:25.37294225, long:-80.88200301",
-          "description": "Everglades National Park protects an unparalleled landscape that provides important habitat for numerous rare and endangered species like the manatee,  American crocodile, and the elusive Florida panther.\n\nAn international treasure as well -  a World Heritage Site, International Biosphere Reserve, a Wetland of International Importance, and a specially protected area under the Cartagena Treaty.",
-          "designation": "National Park",
-          "parkCode": "ever",
+          "states": "NM",
+          "directionsInfo": "Pecos National Historical Park is 25 miles east of Santa Fe, New Mexico off of Interstate 25. Visitors travelling north on I-25: take exit 299 on to HWY 50 to Pecos village and south two miles on State Road 63.\n\nThose travelling south on I-25: take exit 307 and proceed four miles north to the Park on State Road 63.",
+          "directionsUrl": "http://www.nps.gov/peco/planyourvisit/directions.htm",
+          "url": "https://www.nps.gov/peco/index.htm",
+          "weatherInfo": "Pecos National Historical Park is located at nearly 7,000 feet in altitude in the high desert region of Northern New Mexico. Please know your limits at this high desert altitude. We recommend that you wear clothing appropriate to the season, bring plenty of water, stop for a snack or lunch at one of the picnic tables, wear comfortable shoes, and put on plenty of sunscreen.\n\nSpecific daily Pecos weather information may be accessed at this link: http://www.nps.gov/peco/planyourvisit/weather.htm.",
+          "name": "Pecos",
+          "latLong": "lat:35.54192238, long:-105.6814684",
+          "description": "In the midst of piñon, juniper, and ponderosa pine woodlands of the Sangre de Cristo Mountains not far from Santa Fe, the remains of Indian pueblos stand as meaningful reminders of people who once prevailed. Pecos National Historical Park helps visitors explore the cultural exchange and geographic features that played such crucial roles in the rich history of the Pecos Valley.",
+          "designation": "National Historical Park",
+          "parkCode": "peco",
           "addresses": [
             {
-              "postalCode": "33034",
-              "city": "Homestead",
-              "stateCode": "FL",
-              "line1": "40001 State Road 9336",
-              "type": "Physical",
-              "line3": "",
-              "line2": ""
-            },
-            {
-              "postalCode": "33034",
-              "city": "Homestead",
-              "stateCode": "FL",
-              "line1": "40001 State Road 9336",
+              "postalCode": "87552",
+              "city": "Pecos",
+              "stateCode": "NM",
+              "line1": "Pecos National Historical Park",
               "type": "Mailing",
               "line3": "",
-              "line2": ""
+              "line2": "P.O. Box 418"
+            },
+            {
+              "postalCode": "87552",
+              "city": "Pecos",
+              "stateCode": "NM",
+              "line1": "Pecos National Historical Park",
+              "type": "Physical",
+              "line3": "",
+              "line2": "1 Peach Drive"
             }
           ],
-          "id": "5EA02193-276A-4037-B7DB-5765A56935FD",
-          "fullName": "Everglades National Park"
+          "id": "8CBA3879-59AB-4EFE-8523-1DC6F77FB212",
+          "fullName": "Pecos National Historical Park"
         },
         "eatery": {
-          "businessName": "Joe's Stone Crab",
-          "description": "Since Florida is home to many, many elderly people, it's fairly surprising we were able to find a restaurant older than most of them. While Joe's has opened up outposts across the country, the original has remained popular in Miami Beach since way back when. The only thing more famous than the iconic stone crabs are the people who've dined there: according to a book written about the restaurant, they include the likes of 'Sinatra, Ali, and Jennifer Lopez.' It's true, one of the judges from the 11th season of American Idol has eaten here!",
-          "state": "FL",
-          "city": "Miami",
-          "id": 11,
+          "businessName": "El Pinto",
+          "description": "Not only is this New Mexico's most iconic restaurant, it's also one of the best Mexican spots in the country. The red chile ribs are reason enough to schedule a visit soon, but it's also one of the largest restaurants you've ever been in, period. It's like how big your rich friend's house seemed when you were a kid: rooms open up into other rooms. After a few of the margaritas it gets even more difficult to navigate (trust us). Nevertheless, it has iconic status because, in a state of excellent Mexican food, this is a solid standby, and one that people have been returning to time after time.",
+          "state": "NM",
+          "city": "Albuquerque",
+          "id": 33,
           "ameneties": {
-            "wheelchairAccessible": false,
+            "wheelchairAccessible": true,
             "petFriendly": false,
             "wifi": false,
             "diaperFacility": true,
@@ -185,14 +185,14 @@
           }
         },
         "attraction": {
-          "id": 10,
-          "name": "World’s Largest ‘Gone With the Wind’ Collection",
-          "state": "FL",
-          "city": "Plant City",
-          "description": "If you’re a big fan of Gone With the Wind you’re going to want to stop by the world’s largest Gone With the Wind collection. It also houses the world’s largest gift shop dedicated to the movie.",
+          "id": 32,
+          "name": "UFO Crashed Here",
+          "city": "Aztec",
+          "state": "NM",
+          "description": "Supposedly a UFO crash landed on this site in 1948. Now all that remains is a plaque with the gory details of the crash and some rocks gathered into the shape of an alien’s face.",
           "ameneties": {
-            "souvenirs": true,
-            "restrooms": true
+            "souvenirs": false,
+            "restrooms": false
           }
         }
       },
