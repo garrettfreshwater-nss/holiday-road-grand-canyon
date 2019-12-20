@@ -13,6 +13,11 @@ const eventComponent = (event) => {
     <div class="event__description" id="event__description">${event.description}</div>
     <div class="event__feeinfo" id="event__feeinfo">Cost: ${event.feeinfo}</div>
     <button class="close__eventsDialog">HIDE</button>
+
+  <br/>
+  <br/>
+
+
   
   `
 }

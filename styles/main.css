@@ -10,6 +10,10 @@
 @import 'interactions/dialog.css';
 @import 'hero.css';
 @import 'navs/footer.css';
+@import 'cards/event.css';
+@import 'cards/directions.css';
+
+
 
 
 body {
@@ -25,5 +29,6 @@ body {
 .main__content {
     display: flex;
     flex-direction: column;
+    margin-bottom: -100px;
 }
 
