@@ -12,8 +12,8 @@ const parkComponent = (park) => {
       <div class="park__name" id="park__name">${park.fullName}</div>
       <div class="park__state" id="park__state">${park.states}</div>
       <div class="park__description" id="park__description">${park.description}</div>
+      
       <a class="park__url" id="park__url" href="${park.url}">${park.url}</a>
-      <img class="rating" src="/images/icons/rating.png">
       
       <button class="close__dialog">Hide</button>
     </dialog>

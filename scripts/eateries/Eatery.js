@@ -71,10 +71,10 @@ const eateryComponent = (eatery) => {
       <div class="eatery__city">${eatery.city}</div>
       <div class="eatery__state">${eatery.state}</div>
       <div class="eatery__description">${eatery.description}</div>
+      <img class="rating" src="/images/icons/rating.png">
       <div class="eatery__wifi">Wifi: ${wifi}</div>
  
       <div class="eatery__restrooms">Restrooms: ${restrooms}</div>
-      <img class="rating" src="/images/icons/rating.png">
 
       
       <button class="close__dialog">Hide</button>
