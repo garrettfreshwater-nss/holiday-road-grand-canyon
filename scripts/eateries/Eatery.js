@@ -70,6 +70,7 @@ const eateryComponent = (eatery) => {
       <div class="eatery__name">${eatery.businessName}</div>
       <div class="eatery__city">${eatery.city}</div>
       <div class="eatery__state">${eatery.state}</div>
+      <hr/>
       <div class="eatery__description">${eatery.description}</div>
       <div class="eatery__wifi">Wifi: ${wifi}</div>
  

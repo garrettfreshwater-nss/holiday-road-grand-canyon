@@ -10,6 +10,7 @@
 @import 'dialog.css';
 @import 'hero.css';
 @import 'itinerary__modal__dialog.css';
+@import 'event.css';
 
 .header__icon {
     max-width: 125px;

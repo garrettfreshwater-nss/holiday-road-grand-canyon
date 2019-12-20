@@ -53,6 +53,7 @@ const attractionComponent = (attraction) => {
       <div class="attraction__name">${attraction.name}</div>
       <div class="attraction__city">${attraction.city}</div>
       <div class="attraction__state">${attraction.state}</div>
+      <hr/>
       <div class="attraction__description">${attraction.description}</div>
       <div class="attraction__souvenirs">Souvenirs: ${souvenirs}</div>
       <div class="attraction__restrooms">Restrooms: ${restrooms}</div>
