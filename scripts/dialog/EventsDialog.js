@@ -11,9 +11,7 @@ eventHub.addEventListener("click", clickEvent => {
 
        getItinerary().then( () => {
         const allItineraries = useItinerary()
-        // debugger
         let theChosenItinerary=[]
-        // const theChosenItinerary = allItineraries.find(itinerary => (itinerary.id == itineraryId));
            allItineraries.map(currentItinerary => 
           {
             if(currentItinerary.id == itineraryId){
@@ -25,7 +23,9 @@ eventHub.addEventListener("click", clickEvent => {
 
         const newParkCode = new CustomEvent ("parkEventsSelected", {
           detail: {
-            parkCode: itineraryParkCode
+            parkCode: itineraryParkCode,
+            buttonID: clickEvent.target.id
+
           }
         })
         eventHub.dispatchEvent(newParkCode);
