@@ -74,6 +74,8 @@ const eateryComponent = (eatery) => {
       <div class="eatery__wifi">Wifi: ${wifi}</div>
  
       <div class="eatery__restrooms">Restrooms: ${restrooms}</div>
+      <img class="rating" src="/images/icons/rating.png">
+
       
       <button class="close__dialog">Hide</button>
     </dialog>
