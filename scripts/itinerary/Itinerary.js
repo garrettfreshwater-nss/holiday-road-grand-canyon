@@ -66,7 +66,7 @@ const itineraryComponent = (itinerary) => {
         </dialog>
         <button class="button__events" id="eventsButton__${itinerary.id}">EVENTS</button>
         <button class="button__events" id="directions__${itinerary.id}">DIRECTIONS</button>
-        <dialog class="dialog__events"></dialog>
+        <dialog class="dialog__events event"></dialog>
 
         <dialog class="dialog__directions">
         <div class="dialog__directionsInner"></div>
