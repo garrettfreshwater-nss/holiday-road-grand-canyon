@@ -16,6 +16,10 @@
     max-width: 120px;
 }
 
+.rating {
+    width: 50px;
+    margin: 10px 0 10px 0;
+}
 
 .mountain_icon{
     max-width: 50px;

@@ -1,83 +1,16 @@
-@import 'nav.css';
-@import 'buttons.css';
-@import 'itinerary.css';
-@import 'weather.css';
-@import 'itinerary__preview.css';
-@import 'eatery.css';
-@import 'park.css';
-@import 'attraction.css';
-@import 'itinerary__modal.css';
-@import 'dialog.css';
+@import 'navs/nav.css';
+@import 'interactions/buttons.css';
+@import 'itinerary/itinerary.css';
+@import 'cards/weather.css';
+@import 'itinerary/itinerary__preview.css';
+@import 'cards/eatery.css';
+@import 'cards/park.css';
+@import 'cards/attraction.css';
+@import 'itinerary/itinerary__modal.css';
+@import 'interactions/dialog.css';
 @import 'hero.css';
-@import 'itinerary__modal__dialog.css';
-@import 'event.css';
-
-.header__icon {
-    max-width: 125px;
-    padding-left: 50px;
-}
-
-footer__icon {
-    max-width: 125px;
-    margin-top: 40px;
-}
-
-footer{
-    background-color:#004769;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    box-shadow: 0px 0px 15px 0px #272c2f;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 80px;
-    padding-left: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 100;
-    font-size: 10pt;
-}
-
-.social__icon {
-    max-width: 40px;
-    margin-left: 5px;
-}
-
-.footer__copy {
-    font-size: 7.5pt;
-    line-height: 1.5;
-    
-}
-
-.copyright {
-    float:right;
-    position: relative;
-    right: -50px;
-    
-}
-
-.footer__links{
-    display: flex;
-    flex-wrap: wrap;
-    width: 250px;
-}
-.footer__copy DIV{
-    margin-left: 50px;
-    margin-bottom: 10px;
-}
-.footer__copy a {
-    text-decoration: none;
-    color: white;
-}
-.footer__copy DIV:hover{
-    text-decoration: underline;
-}
-
-
-
+@import 'navs/footer.css';
+@import 'cards/event.css'
 
 body {
     font-family: HelveticaNeue-Light;
@@ -88,14 +21,9 @@ body {
     flex-direction: column;
 }
 
-.error {
-    text-transform: lowercase;
-    padding-top: 13px;
-    color: red;
-    text-align: center;
-    
-}
+
 .main__content {
     display: flex;
     flex-direction: column;
 }
+

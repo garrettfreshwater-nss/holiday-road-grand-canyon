@@ -14,6 +14,7 @@ const parkComponent = (park) => {
       <div class="park__state" id="park__state">${park.states}</div>
       <hr/>
       <div class="park__description" id="park__description">${park.description}</div>
+      
       <a class="park__url" id="park__url" href="${park.url}">${park.url}</a>
       <button class="close__dialog">HIDE</button>
     </dialog>
