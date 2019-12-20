@@ -18,9 +18,7 @@
 
 .rating {
     width: 50px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    margin: 10px 0 10px 0;
 }
 
 .mountain_icon{

@@ -32,3 +32,10 @@ form {
 #saveItinerary {
     margin-right: 20px;
 }
+
+.error {
+    text-transform: lowercase;
+    padding-top: 13px;
+    color: red;
+    text-align: center;
+}
