@@ -12,7 +12,7 @@ const directionsCollection = useDirections()
 
 
     const render = directionsCollection => {
-        debugger
+        // debugger
         contentElement.innerHTML += `${directionsCollection
           .map(currentDirection => {
             return directionComponent(currentDirection);

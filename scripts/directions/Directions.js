@@ -1,6 +1,6 @@
 
 const directionComponent = (direction) => {
-debugger
+// debugger
     return `
   
 ${direction.instructions.map(instruction => `
