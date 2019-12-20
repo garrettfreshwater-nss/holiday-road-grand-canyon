@@ -119,55 +119,8 @@
           }
         },
         "attraction": {
-<<<<<<< HEAD
-          "id": "4",
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "ameneties": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        }
-      },
-      "id": 17
-    },
-    {
-      "itineraryName": "Events Test",
-      "itineraryDetails": {
-        "park": {
-          "states": "IA,ID,IL,IN,KS,KY,MO,MT,NE,ND,OH,OR,PA,SD,WA,WV",
-          "directionsInfo": "Lewis & Clark National Historic Trail Headquarters Visitor Center is located inside the National Park Service Mid-West Regional Office. We are right on the Missouri River next to the Bob Kerrey Pedestrian Bridge in downtown Omaha, NE.",
-          "directionsUrl": "https://www.nps.gov/lecl/planyourvisit/lecl_headquarters.htm",
-          "url": "https://www.nps.gov/lecl/index.htm",
-          "weatherInfo": "In winter, watch for ice on trails and sidewalks.\n \nIn summer, make sure to drink plenty of water and wear sunscreen on hot days.\n\nKeep in mind the Trail covers 16 states, use www.weather.gov to look up the specific area you plan to visit.",
-          "name": "Lewis & Clark",
-          "latLong": "lat:41.2646141052246, long:-95.9245147705078",
-          "description": "The Lewis and Clark National Historic Trail is approximately 4,900 miles long, extending from Pittsburgh, Pennsylvania, to the mouth of the Columbia River, near present day Astoria, Oregon.  It follows the historic outbound and inbound routes of the Lewis and Clark Expedition as well as the preparatory section from Pittsburgh, Pennsylvania to Wood River, Illinois.",
-          "designation": "National Historic Trail",
-          "parkCode": "lecl",
-          "addresses": [
-            {
-              "postalCode": "68102",
-              "city": "Omaha",
-              "stateCode": "NE",
-              "line1": "601 Riverfront Dr.",
-              "type": "Physical",
-              "line3": "",
-              "line2": "P.O. Box 29"
-            }
-          ],
-          "id": "95A86C84-F0CB-4493-8B7D-2369D1ED9884",
-          "fullName": "The Last Green Valley National Heritage Corridor"
-        },
-        "eatery": {
-          "businessName": "Occidental Grill & Seafood",
-          "description": "DC is the country's seat of power -- I know this because I've seen one and a half seasons of House of Cards -- and Occidental is where the power goes out for a rib-eye or scallops. And it's been this way since the beginning, with everyone from Amelia Earhart to multiple presidents dining here. While the original was demolished in the '70s, it deserves a spot on this list because it reopened in the '80s super close to its original location and with its rep intact, as both of the presidents named Bush have since partaken of its steakhouse fare.",
-=======
           "id": 8,
           "name": "Owney the Stuffed Dog Postal Mascot",
->>>>>>> master
           "state": "DC",
           "city": "Washington",
           "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
