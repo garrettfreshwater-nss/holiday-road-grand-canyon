@@ -3,7 +3,7 @@ const parkComponent = (park) => {
     return `
     <div class="park__content" id="park--${park.id}">
 
-    <img class="icon mountain_icon" src="/images/mountains.svg" alt="">
+    <img class="icon mountain_icon" src="/images/icons/mountains.svg" alt="">
     
       <div class="park__name">${park.name}</div>
     

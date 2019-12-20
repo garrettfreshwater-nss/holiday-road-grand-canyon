@@ -48,7 +48,7 @@ const itineraryComponent = (itinerary) => {
     <div class="itinerary__content" id="itinerary--${itinerary.id}">
       <div class="itinerary__name">${itinerary.itineraryName}<br/></div>
       <div class="itinerary__header">Your trip to ${itinerary.itineraryDetails.park.name}</div>
-      <img class="icon itinerary_icon" src="/images/road.svg" alt="">
+      <img class="icon itinerary_icon" src="/images/icons/road.svg" alt="">
     <div class="itinerary__buttons">
         <button class="button__details" id="itineraryDetailsButton__${itinerary.id}">Details</button>
         <dialog class="dialog__itinerary" id="details__${itinerary.id}">
