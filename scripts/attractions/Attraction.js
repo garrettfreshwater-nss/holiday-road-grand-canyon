@@ -56,6 +56,8 @@ const attractionComponent = (attraction) => {
       <div class="attraction__description">${attraction.description}</div>
       <div class="attraction__souvenirs">Souvenirs: ${souvenirs}</div>
       <div class="attraction__restrooms">Restrooms: ${restrooms}</div>
+      <img class="rating" src="/images/icons/rating.png">
+
       
       <button class="close__dialog">hide</button>
     </dialog>
