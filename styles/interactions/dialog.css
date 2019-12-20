@@ -7,13 +7,13 @@ button.close__dialog {
 
 dialog::backdrop {
     background: #527d90;
-    opacity: 67.5%;
+    opacity: 62.5%;
  }
 
 .dialog__park {
-    max-width:42.5%;
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px;
+    font-size: 22px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -21,19 +21,21 @@ dialog::backdrop {
 }
 
 .dialog__attraction {
-    max-width:42.5%;
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px; 
+    font-size: 22px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
 
+
+
 .dialog__eatery {
-    max-width:42.5%;
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px;
+    font-size: 22px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
@@ -43,26 +45,40 @@ dialog::backdrop {
 
 /* SAVED ITINERARY DIALOG BOXES */
 
-
-  
-
-
-.dialog__itinerary {
-    max-width:50%;
-    color: black;
-    position: absolute;
-    right: 150px;
+.dialog__events {
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px;
+    font-size: 22px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    
 }
 
 
 
 
+.dialog__events p {
+    padding: 7px !important;
+    line-height: 25px;
+}
+
+.close__eventsDialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
+}
+
+.dialog__itinerary {
+    max-width:45%;
+    font-family: HelveticaNeue-Light;
+    font-size: 22.5px; 
+    border: none;
+    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
+}
   .close__itineraryDialog {
     width: 25%;
     margin: 20px 0 5px 0;
@@ -70,27 +86,16 @@ dialog::backdrop {
 }
   
 
-/* .dialog__attraction {
-    max-width:42.5%;
+
+.dialog__park {
+    max-width:45%;
     font-family: HelveticaNeue-Light;
-    font-size: 12.5px; 
+    font-size: 22.5px; 
     border: none;
     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
     box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
 }
-
-.dialog__eatery {
-    max-width:42.5%;
-    font-family: HelveticaNeue-Light;
-    font-size: 12.5px;
-    border: none;
-    -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
-    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
-    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.90);
-} */
-
-
 
 
 

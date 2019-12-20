@@ -10,7 +10,7 @@
 @import 'interactions/dialog.css';
 @import 'hero.css';
 @import 'navs/footer.css';
-
+@import 'cards/event.css';
 
 body {
     font-family: HelveticaNeue-Light;
