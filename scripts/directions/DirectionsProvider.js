@@ -29,14 +29,17 @@ return fetch("https://graphhopper.com/api/1/route?&point=36.17709885,-86.7893415
 // return fetch(`https://graphhopper.com/api/1/route?point=36.17709885,-86.7893415298845&point=${destination_latitude1},${destination_longitude1}&point=${destination_latitude2},${destination_longitude2}&point=${destination_latitude3},${destination_longitude3}&vehicle=car&locale=us&instructions=true&calc_points=true&key=19cf6ec1-6af9-47c0-b38e-4412e9afad34`)
 
 .then(res => res.json())
-.then(parsedDirections => {directions = parsedDirections.hints.instructions.slice()
+// .then(parsedDirections => {directions = parsedDirections.hints.instructions.slice()
+
+// paths is an array []
+    .then(parsedDirections => {directions = parsedDirections.paths.slice()
 console.log(directions)
 
 })
 }
 
 export const useDirections = () => {
-    console.log(useDirections())
+    // console.log(useDirections())
     return directions
     
 }

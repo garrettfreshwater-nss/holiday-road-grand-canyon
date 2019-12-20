@@ -1,6 +1,7 @@
 
 import { getItinerary, useItinerary } from "../itinerary/ItineraryProvider.js";
 import { getDirections, getLatLong, useLatLong } from "../directions/DirectionsProvider.js";
+import { DirectionListComponent } from "../directions/DirectionsList.js";
 
 const eventHub = document.querySelector(".container")
 
@@ -82,13 +83,10 @@ export const initializeDirectionsButtonListener = () => {
                         console.log(longTwo)
 
 
-                        getDirections(taco.latOne,taco.longOne, latTwo, longTwo, trimmedParkLat, trimmedParkLong)
-                    })
-                    // .then(() => {
-                    //     // getDirections(attractCity, attractState, eateryCity, eateryState, parkLat, parkLong)
+                        getDirections(taco.latOne,taco.longOne, latTwo, longTwo, trimmedParkLat, trimmedParkLong).then(DirectionListComponent)  
+                    })                  
 
-
-                    // })
+                    
                     // "latLong": "lat:41.26093905, long:-81.57116722",
 
                 }
