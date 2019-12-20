@@ -1,4 +1,4 @@
-.park__card {
+.directons__card {
     display: flex;
     flex-direction: column;
     margin-right: 40px;
@@ -12,18 +12,21 @@
     padding: 15px;
 }
 
-.park__name {
-    margin-top: 13px;
-    max-width: 150px;
+
+.dialog__directionsInner {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: normal;
+    max-width: auto;
+    padding: 20px;
 }
 
-.mountain_icon{
-    max-width: 120px;
+button.close__directionsDialog {
+    width: 25%;
+    margin: 20px 0 5px 0;
+    outline: none;
 }
 
-.park__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-}
+disregardthis{}
+
+
